@@ -1,0 +1,2 @@
+2019-01-13 23:00:05 INFO  GlobalStepDefinition:110 - user admin@p.com is logged into the applicationorg.apache.log4j.Logger
+2019-01-13 23:00:05 INFO  CommonUtil:43 - ############  INSIDE LOGIN ########################

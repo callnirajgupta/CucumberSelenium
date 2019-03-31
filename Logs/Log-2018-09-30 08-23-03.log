@@ -1,0 +1,1161 @@
+2018-09-30 20:23:03 INFO  SeleniumUtil:307 - delete log from logs folder before day :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:03 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:04 INFO  SeleniumUtil:307 - delete log from logs folder before day :1
+2018-09-30 20:23:04 INFO  SeleniumUtil:307 - delete log from logs folder before day :1
+2018-09-30 20:23:04 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:04 DEBUG SeleniumUtil:315 - Logs deleted before days :1
+2018-09-30 20:23:05 INFO  Login:31 - user admin@p.com is logged into the applicationorg.apache.log4j.Logger
+2018-09-30 20:23:05 INFO  CommonUtil:43 - ############  INSIDE LOGIN ########################
+2018-09-30 20:23:05 INFO  SeleniumUtil:249 - ############################# Inside CloseBrowser #############################
+2018-09-30 20:23:06 DEBUG cache:44 - Couldn't find template in cache for "overview"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:06 DEBUG cache:44 - TemplateLoader.findTemplateSource("overview_en_US"): Not found
+2018-09-30 20:23:06 DEBUG cache:44 - TemplateLoader.findTemplateSource("overview_en"): Not found
+2018-09-30 20:23:06 DEBUG cache:44 - TemplateLoader.findTemplateSource("overview"): Found
+2018-09-30 20:23:06 DEBUG cache:44 - Loading template for "overview"("en_US", UTF-8, parsed) from "overview"
+2018-09-30 20:23:07 DEBUG cache:44 - Couldn't find template in cache for "pie_chart"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:07 DEBUG cache:44 - TemplateLoader.findTemplateSource("pie_chart_en_US"): Not found
+2018-09-30 20:23:07 DEBUG cache:44 - TemplateLoader.findTemplateSource("pie_chart_en"): Not found
+2018-09-30 20:23:07 DEBUG cache:44 - TemplateLoader.findTemplateSource("pie_chart"): Found
+2018-09-30 20:23:07 DEBUG cache:44 - Loading template for "pie_chart"("en_US", UTF-8, parsed) from "pie_chart"
+2018-09-30 20:23:07 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean. Introspection information for the class is: {setFeatures=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[]), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@2e4ea674, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[])=[Ljava.lang.Class;@7512f3d1, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@4fd7b5ef, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@19bdfdd3, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@421b9596, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@20f56a7f, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[])=[Ljava.lang.Class;@52ffdb43, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@24dae7aa, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@3af37182, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()=[Ljava.lang.Class;@31de5231, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()=[Ljava.lang.Class;@1d57b28a, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@6e43f13d, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@4f1de216, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@c917e1e, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@2c724ee4, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()=[Ljava.lang.Class;@5dc9884e}, scenarios=java.beans.PropertyDescriptor[name=scenarios; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()], setScenarios=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[]), title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], features=java.beans.PropertyDescriptor[name=features; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], getOverallStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats(), hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setOverallStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), getFeatures=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures(), equals=public boolean java.lang.Object.equals(java.lang.Object), overallStats=java.beans.PropertyDescriptor[name=overallStats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()], toString=public java.lang.String java.lang.Object.toString(), getScenarios=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@7d64ccb3}
+2018-09-30 20:23:07 DEBUG cache:44 - Couldn't find template in cache for "tables"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:07 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables_en_US"): Not found
+2018-09-30 20:23:07 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables_en"): Not found
+2018-09-30 20:23:07 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables"): Found
+2018-09-30 20:23:07 DEBUG cache:44 - Loading template for "tables"("en_US", UTF-8, parsed) from "tables"
+2018-09-30 20:23:07 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean. Introspection information for the class is: {setFeatures=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[]), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@2e4ea674, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[])=[Ljava.lang.Class;@7512f3d1, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@4fd7b5ef, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@19bdfdd3, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@421b9596, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@20f56a7f, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[])=[Ljava.lang.Class;@52ffdb43, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@24dae7aa, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@3af37182, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()=[Ljava.lang.Class;@31de5231, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()=[Ljava.lang.Class;@1d57b28a, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@6e43f13d, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@4f1de216, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@c917e1e, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@2c724ee4, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()=[Ljava.lang.Class;@5dc9884e}, scenarios=java.beans.PropertyDescriptor[name=scenarios; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()], setScenarios=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[]), title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], features=java.beans.PropertyDescriptor[name=features; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], getOverallStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats(), hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setOverallStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), getFeatures=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures(), equals=public boolean java.lang.Object.equals(java.lang.Object), overallStats=java.beans.PropertyDescriptor[name=overallStats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()], toString=public java.lang.String java.lang.Object.toString(), getScenarios=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@7d64ccb3}
+2018-09-30 20:23:09 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:09 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:09 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2018-09-30 20:23:10 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:10 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:39806
+2018-09-30 20:23:10 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:39806
+2018-09-30 20:23:10 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:49999<->127.0.0.1:39806
+2018-09-30 20:23:10 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:10 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2018-09-30 20:23:10 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:10 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:10 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2018-09-30 20:23:10 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:10 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 335
+2018-09-30 20:23:10 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:10 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:10 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:10 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 335[\r][\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}},[\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}},[\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "      {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}}[\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2018-09-30 20:23:10 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2018-09-30 20:23:10 DEBUG wire:87 - http-outgoing-0 >> "}"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 << "Content-Length:827[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73)","userDataDir":"C:\\Users\\sai\\AppData\\Local\\Temp\\scoped_dir1604_11716"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"69.0.3497.100","webStorageEnabled":true}}"
+2018-09-30 20:23:14 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:14 DEBUG headers:125 - http-outgoing-0 << Content-Length:827
+2018-09-30 20:23:14 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:14 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:14 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:14 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:14 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:14 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:14 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:14 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:14 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:14 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:14 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:14 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/window/current/maximize HTTP/1.1
+2018-09-30 20:23:14 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:14 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:14 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/window/current/maximize HTTP/1.1
+2018-09-30 20:23:14 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:14 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 45
+2018-09-30 20:23:14 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:14 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:14 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:14 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/window/current/maximize HTTP/1.1[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:14 DEBUG wire:87 - http-outgoing-0 >> "{"windowHandle":"current","handle":"current"}"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":null}"
+2018-09-30 20:23:16 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:16 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:16 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:16 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:16 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:16 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:16 INFO  SeleniumUtil:273 -  print the sysc time 10
+2018-09-30 20:23:16 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:16 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:16 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:16 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:16 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:16 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:16 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:16 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/timeouts HTTP/1.1
+2018-09-30 20:23:16 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:16 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:16 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/timeouts HTTP/1.1
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 30
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/timeouts HTTP/1.1[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:87 - http-outgoing-0 >> "{"type":"implicit","ms":10000}"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":null}"
+2018-09-30 20:23:16 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:16 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:16 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:16 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:16 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:16 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:16 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:16 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:16 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:16 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:16 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:16 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:16 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:16 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/url HTTP/1.1
+2018-09-30 20:23:16 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:16 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:16 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/url HTTP/1.1
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 49
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:16 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/url HTTP/1.1[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 49[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:16 DEBUG wire:87 - http-outgoing-0 >> "{"url":"http://automationpractice.com/index.php"}"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":null}"
+2018-09-30 20:23:21 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:21 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:21 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:21 DEBUG MainClientExec:256 - Executing request GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/title HTTP/1.1
+2018-09-30 20:23:21 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG headers:133 - http-outgoing-0 >> GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/title HTTP/1.1
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Cache-Control: no-cache
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/title HTTP/1.1[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Length:78[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":"My Store"}"
+2018-09-30 20:23:21 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Length:78
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 INFO  SeleniumUtil:335 - Inside ValidateWebElementPresence method
+2018-09-30 20:23:21 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:21 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:21 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:21 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:21 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 38
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 38[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 >> "{"using":"class name","value":"login"}"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Length:104[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":[{"ELEMENT":"0.3458308759402897-1"}]}"
+2018-09-30 20:23:21 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Length:104
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 INFO  SeleniumUtil:347 - #########Element is present: By.className: login
+2018-09-30 20:23:21 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:21 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:21 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:21 DEBUG MainClientExec:256 - Executing request GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/title HTTP/1.1
+2018-09-30 20:23:21 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG headers:133 - http-outgoing-0 >> GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/title HTTP/1.1
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Cache-Control: no-cache
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/title HTTP/1.1[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Length:78[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":"My Store"}"
+2018-09-30 20:23:21 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Length:78
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 INFO  HomePage_PO:17 - ########### Inside clickSignIn_HomePage ###########
+2018-09-30 20:23:21 INFO  SeleniumUtil:353 - Inside ValidateWebElementPresence method
+2018-09-30 20:23:21 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:21 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:21 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:21 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:21 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 38
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 38[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 >> "{"using":"class name","value":"login"}"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Length:104[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":[{"ELEMENT":"0.3458308759402897-1"}]}"
+2018-09-30 20:23:21 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Length:104
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:21 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:21 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:21 DEBUG MainClientExec:256 - Executing request GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.3458308759402897-1/displayed HTTP/1.1
+2018-09-30 20:23:21 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG headers:133 - http-outgoing-0 >> GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.3458308759402897-1/displayed HTTP/1.1
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Cache-Control: no-cache
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.3458308759402897-1/displayed HTTP/1.1[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":true}"
+2018-09-30 20:23:21 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 INFO  SeleniumUtil:357 - ######### Element is visible: By.className: login
+2018-09-30 20:23:21 DEBUG SeleniumUtil:194 - inside getWebElement
+2018-09-30 20:23:21 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:21 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:21 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:21 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1
+2018-09-30 20:23:21 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 38
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 38[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 >> "{"using":"class name","value":"login"}"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Length:102[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":{"ELEMENT":"0.3458308759402897-1"}}"
+2018-09-30 20:23:21 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Length:102
+2018-09-30 20:23:21 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:21 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:21 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:21 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:21 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.3458308759402897-1/click HTTP/1.1
+2018-09-30 20:23:21 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:21 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.3458308759402897-1/click HTTP/1.1
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 29
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:21 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.3458308759402897-1/click HTTP/1.1[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:21 DEBUG wire:87 - http-outgoing-0 >> "{"id":"0.3458308759402897-1"}"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":null}"
+2018-09-30 20:23:24 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 INFO  SeleniumUtil:335 - Inside ValidateWebElementPresence method
+2018-09-30 20:23:24 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:24 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:24 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:24 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:24 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 46
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 46[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 >> "{"using":"css selector","value":"input#email"}"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Length:104[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":[{"ELEMENT":"0.7245990192194309-1"}]}"
+2018-09-30 20:23:24 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Length:104
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 INFO  SeleniumUtil:347 - #########Element is present: By.cssSelector: input#email
+2018-09-30 20:23:24 INFO  Login_PO:17 - ############# inside Login_PO method ###################
+2018-09-30 20:23:24 INFO  SeleniumUtil:335 - Inside ValidateWebElementPresence method
+2018-09-30 20:23:24 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:24 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:24 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:24 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:24 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 46
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 46[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 >> "{"using":"css selector","value":"input#email"}"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Length:104[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":[{"ELEMENT":"0.7245990192194309-1"}]}"
+2018-09-30 20:23:24 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Length:104
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 INFO  SeleniumUtil:347 - #########Element is present: By.cssSelector: input#email
+2018-09-30 20:23:24 DEBUG SeleniumUtil:194 - inside getWebElement
+2018-09-30 20:23:24 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:24 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:24 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:24 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1
+2018-09-30 20:23:24 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 46
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 46[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 >> "{"using":"css selector","value":"input#email"}"
+2018-09-30 20:23:24 DEBUG cache:44 - Couldn't find template in cache for "detailed"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:24 DEBUG cache:44 - TemplateLoader.findTemplateSource("detailed_en_US"): Not found
+2018-09-30 20:23:24 DEBUG cache:44 - TemplateLoader.findTemplateSource("detailed_en"): Not found
+2018-09-30 20:23:24 DEBUG cache:44 - TemplateLoader.findTemplateSource("detailed"): Found
+2018-09-30 20:23:24 DEBUG cache:44 - Loading template for "detailed"("en_US", UTF-8, parsed) from "detailed"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Length:102[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":{"ELEMENT":"0.7245990192194309-1"}}"
+2018-09-30 20:23:24 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Length:102
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:24 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:24 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:24 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-1/value HTTP/1.1
+2018-09-30 20:23:24 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-1/value HTTP/1.1
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 53
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-1/value HTTP/1.1[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 >> "{"id":"0.7245990192194309-1","value":["admin@p.com"]}"
+2018-09-30 20:23:24 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables_en_US"): Not found
+2018-09-30 20:23:24 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables_en"): Not found
+2018-09-30 20:23:24 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables"): Found
+2018-09-30 20:23:24 DEBUG cache:44 - "tables"("en_US", UTF-8, parsed): using cached since tables hasn't changed.
+2018-09-30 20:23:24 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean. Introspection information for the class is: {getStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats(), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@1e1297e, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String)=[Ljava.lang.Class;@535e5fbd, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@726f0a4d, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@20ad19c6, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@280f6e74, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@90d7f7f, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3ba3171, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@4b917be9, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()=[Ljava.lang.Class;@18bec021, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@7aaab2ce, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[])=[Ljava.lang.Class;@28492553, public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()=[Ljava.lang.Class;@68c75d80, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@6963771, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@2905c9af, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@48070261, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()=[Ljava.lang.Class;@1afe6dbc}, title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], stats=java.beans.PropertyDescriptor[name=stats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()], hashCode=public native int java.lang.Object.hashCode(), screenShotWidth=java.beans.PropertyDescriptor[name=screenShotWidth; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()], results=java.beans.PropertyDescriptor[name=results; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()], class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setResults=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[]), setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), setStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setScreenShotWidth=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String), getScreenShotWidth=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth(), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), equals=public boolean java.lang.Object.equals(java.lang.Object), getResults=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults(), toString=public java.lang.String java.lang.Object.toString(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@2d64fc2d}
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":null}"
+2018-09-30 20:23:24 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 INFO  SeleniumUtil:335 - Inside ValidateWebElementPresence method
+2018-09-30 20:23:24 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:24 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:24 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:24 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:24 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 56
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 >> "{"using":"css selector","value":"input[id\u003dpasswd]"}"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Length:104[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":[{"ELEMENT":"0.7245990192194309-2"}]}"
+2018-09-30 20:23:24 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Length:104
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 INFO  SeleniumUtil:347 - #########Element is present: By.cssSelector: input[id=passwd]
+2018-09-30 20:23:24 DEBUG SeleniumUtil:194 - inside getWebElement
+2018-09-30 20:23:24 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:24 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:24 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:24 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1
+2018-09-30 20:23:24 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 56
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 56[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 >> "{"using":"css selector","value":"input[id\u003dpasswd]"}"
+2018-09-30 20:23:24 DEBUG cache:44 - "detailed"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-09-30 20:23:24 DEBUG cache:44 - "tables"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-09-30 20:23:24 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean. Introspection information for the class is: {getStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats(), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@1e1297e, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String)=[Ljava.lang.Class;@535e5fbd, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@726f0a4d, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@20ad19c6, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@280f6e74, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@90d7f7f, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3ba3171, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@4b917be9, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()=[Ljava.lang.Class;@18bec021, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@7aaab2ce, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[])=[Ljava.lang.Class;@28492553, public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()=[Ljava.lang.Class;@68c75d80, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@6963771, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@2905c9af, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@48070261, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()=[Ljava.lang.Class;@1afe6dbc}, title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], stats=java.beans.PropertyDescriptor[name=stats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()], hashCode=public native int java.lang.Object.hashCode(), screenShotWidth=java.beans.PropertyDescriptor[name=screenShotWidth; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()], results=java.beans.PropertyDescriptor[name=results; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()], class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setResults=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[]), setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), setStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setScreenShotWidth=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String), getScreenShotWidth=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth(), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), equals=public boolean java.lang.Object.equals(java.lang.Object), getResults=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults(), toString=public java.lang.String java.lang.Object.toString(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@2d64fc2d}
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Length:102[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":{"ELEMENT":"0.7245990192194309-2"}}"
+2018-09-30 20:23:24 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Length:102
+2018-09-30 20:23:24 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:24 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:24 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:24 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:24 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-2/value HTTP/1.1
+2018-09-30 20:23:24 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:24 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-2/value HTTP/1.1
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 53
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:24 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-2/value HTTP/1.1[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 53[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:24 DEBUG wire:87 - http-outgoing-0 >> "{"id":"0.7245990192194309-2","value":["Password-11"]}"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":null}"
+2018-09-30 20:23:25 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:25 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:25 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:25 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 INFO  SeleniumUtil:353 - Inside ValidateWebElementPresence method
+2018-09-30 20:23:25 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:25 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:25 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:25 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:25 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:25 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:25 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 36
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 36[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 >> "{"using":"id","value":"SubmitLogin"}"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "Content-Length:104[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":[{"ELEMENT":"0.7245990192194309-3"}]}"
+2018-09-30 20:23:25 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:25 DEBUG headers:125 - http-outgoing-0 << Content-Length:104
+2018-09-30 20:23:25 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:25 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:25 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:25 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:25 DEBUG MainClientExec:256 - Executing request GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-3/displayed HTTP/1.1
+2018-09-30 20:23:25 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:25 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:25 DEBUG headers:133 - http-outgoing-0 >> GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-3/displayed HTTP/1.1
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Cache-Control: no-cache
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-3/displayed HTTP/1.1[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":true}"
+2018-09-30 20:23:25 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:25 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:25 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:25 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 INFO  SeleniumUtil:357 - ######### Element is visible: By.id: SubmitLogin
+2018-09-30 20:23:25 DEBUG SeleniumUtil:194 - inside getWebElement
+2018-09-30 20:23:25 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:25 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:25 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:25 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1
+2018-09-30 20:23:25 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:25 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:25 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 36
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 36[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 >> "{"using":"id","value":"SubmitLogin"}"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "Content-Length:102[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":{"ELEMENT":"0.7245990192194309-3"}}"
+2018-09-30 20:23:25 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:25 DEBUG headers:125 - http-outgoing-0 << Content-Length:102
+2018-09-30 20:23:25 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:25 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:25 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:25 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:25 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:25 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-3/click HTTP/1.1
+2018-09-30 20:23:25 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:25 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:25 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-3/click HTTP/1.1
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 29
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:25 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.7245990192194309-3/click HTTP/1.1[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 29[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:25 DEBUG wire:87 - http-outgoing-0 >> "{"id":"0.7245990192194309-3"}"
+2018-09-30 20:23:26 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:26 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:26 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:26 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:26 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":null}"
+2018-09-30 20:23:26 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:26 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:26 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:26 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:26 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:26 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:28 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:28 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:28 DEBUG MainClientExec:256 - Executing request GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/title HTTP/1.1
+2018-09-30 20:23:28 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:28 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:28 DEBUG headers:133 - http-outgoing-0 >> GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/title HTTP/1.1
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Cache-Control: no-cache
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "GET /session/ddabb3304c6cbd714e7c89ed90f2c1db/title HTTP/1.1[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "Content-Length:91[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":"My account - My Store"}"
+2018-09-30 20:23:28 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:28 DEBUG headers:125 - http-outgoing-0 << Content-Length:91
+2018-09-30 20:23:28 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:28 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 INFO  SeleniumUtil:335 - Inside ValidateWebElementPresence method
+2018-09-30 20:23:28 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:28 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:28 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:28 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:28 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:28 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:28 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 43
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 >> "{"using":"css selector","value":"a.logout"}"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "Content-Length:103[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":[{"ELEMENT":"0.910068498395217-1"}]}"
+2018-09-30 20:23:28 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:28 DEBUG headers:125 - http-outgoing-0 << Content-Length:103
+2018-09-30 20:23:28 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:28 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 INFO  SeleniumUtil:347 - #########Element is present: By.cssSelector: a.logout
+2018-09-30 20:23:28 DEBUG Login:35 - ############  LOGIN SUCCESSFUL for user -   ########################--admin@p.com
+2018-09-30 20:23:28 INFO  CommonUtil:29 - ############  INSIDE LOGOUT  ########################
+2018-09-30 20:23:28 INFO  WelcomePage_PO:16 - ######  Inside clickSignOut ##############
+2018-09-30 20:23:28 DEBUG SeleniumUtil:194 - inside getWebElement
+2018-09-30 20:23:28 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:28 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:28 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:28 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1
+2018-09-30 20:23:28 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:28 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:28 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 43
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element HTTP/1.1[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 43[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 >> "{"using":"css selector","value":"a.logout"}"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "Content-Length:101[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":{"ELEMENT":"0.910068498395217-1"}}"
+2018-09-30 20:23:28 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:28 DEBUG headers:125 - http-outgoing-0 << Content-Length:101
+2018-09-30 20:23:28 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:28 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:28 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:28 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:28 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:28 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.910068498395217-1/click HTTP/1.1
+2018-09-30 20:23:28 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:28 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:28 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.910068498395217-1/click HTTP/1.1
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 28
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:28 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/element/0.910068498395217-1/click HTTP/1.1[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 28[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:28 DEBUG wire:87 - http-outgoing-0 >> "{"id":"0.910068498395217-1"}"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":null}"
+2018-09-30 20:23:30 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:30 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:30 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:30 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:30 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:30 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:30 INFO  SeleniumUtil:335 - Inside ValidateWebElementPresence method
+2018-09-30 20:23:30 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:30 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:30 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:30 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:30 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:30 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:30 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:30 DEBUG MainClientExec:256 - Executing request POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:30 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:30 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:30 DEBUG headers:133 - http-outgoing-0 >> POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1
+2018-09-30 20:23:30 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2018-09-30 20:23:30 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 38
+2018-09-30 20:23:30 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:30 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:30 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:30 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "POST /session/ddabb3304c6cbd714e7c89ed90f2c1db/elements HTTP/1.1[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 38[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:87 - http-outgoing-0 >> "{"using":"class name","value":"login"}"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "Content-Length:105[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":[{"ELEMENT":"0.12788120737279285-1"}]}"
+2018-09-30 20:23:30 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:30 DEBUG headers:125 - http-outgoing-0 << Content-Length:105
+2018-09-30 20:23:30 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:30 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:30 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:30 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:30 INFO  SeleniumUtil:347 - #########Element is present: By.className: login
+2018-09-30 20:23:30 DEBUG CommonUtil:35 - ############  LOGOUT SUCCESSFUL  ########################
+2018-09-30 20:23:30 INFO  SeleniumUtil:249 - ############################# Inside CloseBrowser #############################
+2018-09-30 20:23:30 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2018-09-30 20:23:30 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2018-09-30 20:23:30 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:30 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:39806][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:30 DEBUG MainClientExec:208 - Stale connection check
+2018-09-30 20:23:30 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2018-09-30 20:23:30 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2018-09-30 20:23:30 DEBUG MainClientExec:256 - Executing request DELETE /session/ddabb3304c6cbd714e7c89ed90f2c1db/window HTTP/1.1
+2018-09-30 20:23:30 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2018-09-30 20:23:30 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2018-09-30 20:23:30 DEBUG headers:133 - http-outgoing-0 >> DELETE /session/ddabb3304c6cbd714e7c89ed90f2c1db/window HTTP/1.1
+2018-09-30 20:23:30 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:39806
+2018-09-30 20:23:30 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2018-09-30 20:23:30 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2018-09-30 20:23:30 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "DELETE /session/ddabb3304c6cbd714e7c89ed90f2c1db/window HTTP/1.1[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:39806[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2018-09-30 20:23:30 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"ddabb3304c6cbd714e7c89ed90f2c1db","status":0,"value":null}"
+2018-09-30 20:23:30 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2018-09-30 20:23:30 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2018-09-30 20:23:30 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2018-09-30 20:23:30 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2018-09-30 20:23:30 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:39806] can be kept alive indefinitely
+2018-09-30 20:23:30 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:39806][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2018-09-30 20:23:30 DEBUG SeleniumUtil:252 - ###################   Closed Browser #############################
+2018-09-30 20:23:30 DEBUG cache:44 - Couldn't find template in cache for "overview"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:30 DEBUG cache:44 - TemplateLoader.findTemplateSource("overview_en_US"): Not found
+2018-09-30 20:23:30 DEBUG cache:44 - TemplateLoader.findTemplateSource("overview_en"): Not found
+2018-09-30 20:23:30 DEBUG cache:44 - TemplateLoader.findTemplateSource("overview"): Found
+2018-09-30 20:23:30 DEBUG cache:44 - Loading template for "overview"("en_US", UTF-8, parsed) from "overview"
+2018-09-30 20:23:30 DEBUG cache:44 - Couldn't find template in cache for "pie_chart"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:30 DEBUG cache:44 - TemplateLoader.findTemplateSource("pie_chart_en_US"): Not found
+2018-09-30 20:23:30 DEBUG cache:44 - TemplateLoader.findTemplateSource("pie_chart_en"): Not found
+2018-09-30 20:23:30 DEBUG cache:44 - TemplateLoader.findTemplateSource("pie_chart"): Found
+2018-09-30 20:23:30 DEBUG cache:44 - Loading template for "pie_chart"("en_US", UTF-8, parsed) from "pie_chart"
+2018-09-30 20:23:30 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean. Introspection information for the class is: {setFeatures=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[]), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@2e4ea674, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[])=[Ljava.lang.Class;@7512f3d1, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@4fd7b5ef, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@19bdfdd3, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@421b9596, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@20f56a7f, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[])=[Ljava.lang.Class;@52ffdb43, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@24dae7aa, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@3af37182, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()=[Ljava.lang.Class;@31de5231, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()=[Ljava.lang.Class;@1d57b28a, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@6e43f13d, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@4f1de216, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@c917e1e, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@2c724ee4, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()=[Ljava.lang.Class;@5dc9884e}, scenarios=java.beans.PropertyDescriptor[name=scenarios; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()], setScenarios=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[]), title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], features=java.beans.PropertyDescriptor[name=features; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], getOverallStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats(), hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setOverallStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), getFeatures=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures(), equals=public boolean java.lang.Object.equals(java.lang.Object), overallStats=java.beans.PropertyDescriptor[name=overallStats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()], toString=public java.lang.String java.lang.Object.toString(), getScenarios=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@7d64ccb3}
+2018-09-30 20:23:30 DEBUG cache:44 - Couldn't find template in cache for "tables"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:30 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables_en_US"): Not found
+2018-09-30 20:23:30 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables_en"): Not found
+2018-09-30 20:23:30 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables"): Found
+2018-09-30 20:23:30 DEBUG cache:44 - Loading template for "tables"("en_US", UTF-8, parsed) from "tables"
+2018-09-30 20:23:30 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean. Introspection information for the class is: {setFeatures=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[]), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@2e4ea674, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[])=[Ljava.lang.Class;@7512f3d1, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@4fd7b5ef, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@19bdfdd3, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@421b9596, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@20f56a7f, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[])=[Ljava.lang.Class;@52ffdb43, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@24dae7aa, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@3af37182, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()=[Ljava.lang.Class;@31de5231, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()=[Ljava.lang.Class;@1d57b28a, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@6e43f13d, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@4f1de216, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@c917e1e, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@2c724ee4, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()=[Ljava.lang.Class;@5dc9884e}, scenarios=java.beans.PropertyDescriptor[name=scenarios; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()], setScenarios=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[]), title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], features=java.beans.PropertyDescriptor[name=features; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], getOverallStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats(), hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setOverallStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), getFeatures=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures(), equals=public boolean java.lang.Object.equals(java.lang.Object), overallStats=java.beans.PropertyDescriptor[name=overallStats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()], toString=public java.lang.String java.lang.Object.toString(), getScenarios=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@7d64ccb3}
+2018-09-30 20:23:31 DEBUG cache:44 - Couldn't find template in cache for "detailed"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:31 DEBUG cache:44 - TemplateLoader.findTemplateSource("detailed_en_US"): Not found
+2018-09-30 20:23:31 DEBUG cache:44 - TemplateLoader.findTemplateSource("detailed_en"): Not found
+2018-09-30 20:23:31 DEBUG cache:44 - TemplateLoader.findTemplateSource("detailed"): Found
+2018-09-30 20:23:31 DEBUG cache:44 - Loading template for "detailed"("en_US", UTF-8, parsed) from "detailed"
+2018-09-30 20:23:31 DEBUG cache:44 - "tables"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-09-30 20:23:31 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean. Introspection information for the class is: {getStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats(), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@1e1297e, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String)=[Ljava.lang.Class;@535e5fbd, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@726f0a4d, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@20ad19c6, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@280f6e74, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@90d7f7f, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3ba3171, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@4b917be9, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()=[Ljava.lang.Class;@18bec021, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@7aaab2ce, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[])=[Ljava.lang.Class;@28492553, public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()=[Ljava.lang.Class;@68c75d80, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@6963771, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@2905c9af, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@48070261, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()=[Ljava.lang.Class;@1afe6dbc}, title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], stats=java.beans.PropertyDescriptor[name=stats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()], hashCode=public native int java.lang.Object.hashCode(), screenShotWidth=java.beans.PropertyDescriptor[name=screenShotWidth; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()], results=java.beans.PropertyDescriptor[name=results; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()], class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setResults=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[]), setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), setStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setScreenShotWidth=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String), getScreenShotWidth=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth(), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), equals=public boolean java.lang.Object.equals(java.lang.Object), getResults=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults(), toString=public java.lang.String java.lang.Object.toString(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@2d64fc2d}
+2018-09-30 20:23:31 DEBUG cache:44 - "detailed"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-09-30 20:23:31 DEBUG cache:44 - "tables"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-09-30 20:23:31 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean. Introspection information for the class is: {getStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats(), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@1e1297e, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String)=[Ljava.lang.Class;@535e5fbd, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@726f0a4d, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@20ad19c6, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@280f6e74, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@90d7f7f, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3ba3171, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@4b917be9, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()=[Ljava.lang.Class;@18bec021, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@7aaab2ce, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[])=[Ljava.lang.Class;@28492553, public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()=[Ljava.lang.Class;@68c75d80, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@6963771, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@2905c9af, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@48070261, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()=[Ljava.lang.Class;@1afe6dbc}, title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], stats=java.beans.PropertyDescriptor[name=stats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()], hashCode=public native int java.lang.Object.hashCode(), screenShotWidth=java.beans.PropertyDescriptor[name=screenShotWidth; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()], results=java.beans.PropertyDescriptor[name=results; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()], class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setResults=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[]), setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), setStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setScreenShotWidth=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String), getScreenShotWidth=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth(), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), equals=public boolean java.lang.Object.equals(java.lang.Object), getResults=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults(), toString=public java.lang.String java.lang.Object.toString(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@2d64fc2d}
+2018-09-30 20:23:32 DEBUG cache:44 - Couldn't find template in cache for "overview"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("overview_en_US"): Not found
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("overview_en"): Not found
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("overview"): Found
+2018-09-30 20:23:32 DEBUG cache:44 - Loading template for "overview"("en_US", UTF-8, parsed) from "overview"
+2018-09-30 20:23:32 DEBUG cache:44 - Couldn't find template in cache for "pie_chart"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("pie_chart_en_US"): Not found
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("pie_chart_en"): Not found
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("pie_chart"): Found
+2018-09-30 20:23:32 DEBUG cache:44 - Loading template for "pie_chart"("en_US", UTF-8, parsed) from "pie_chart"
+2018-09-30 20:23:32 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean. Introspection information for the class is: {setFeatures=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[]), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@2e4ea674, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[])=[Ljava.lang.Class;@7512f3d1, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@4fd7b5ef, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@19bdfdd3, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@421b9596, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@20f56a7f, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[])=[Ljava.lang.Class;@52ffdb43, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@24dae7aa, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@3af37182, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()=[Ljava.lang.Class;@31de5231, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()=[Ljava.lang.Class;@1d57b28a, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@6e43f13d, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@4f1de216, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@c917e1e, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@2c724ee4, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()=[Ljava.lang.Class;@5dc9884e}, scenarios=java.beans.PropertyDescriptor[name=scenarios; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()], setScenarios=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[]), title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], features=java.beans.PropertyDescriptor[name=features; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], getOverallStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats(), hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setOverallStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), getFeatures=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures(), equals=public boolean java.lang.Object.equals(java.lang.Object), overallStats=java.beans.PropertyDescriptor[name=overallStats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()], toString=public java.lang.String java.lang.Object.toString(), getScenarios=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@7d64ccb3}
+2018-09-30 20:23:32 DEBUG cache:44 - Couldn't find template in cache for "tables"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables_en_US"): Not found
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables_en"): Not found
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("tables"): Found
+2018-09-30 20:23:32 DEBUG cache:44 - Loading template for "tables"("en_US", UTF-8, parsed) from "tables"
+2018-09-30 20:23:32 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean. Introspection information for the class is: {setFeatures=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[]), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@2e4ea674, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setFeatures(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[])=[Ljava.lang.Class;@7512f3d1, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@4fd7b5ef, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@19bdfdd3, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@421b9596, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@20f56a7f, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[])=[Ljava.lang.Class;@52ffdb43, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@24dae7aa, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@3af37182, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()=[Ljava.lang.Class;@31de5231, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()=[Ljava.lang.Class;@1d57b28a, public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@6e43f13d, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@4f1de216, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@c917e1e, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@2c724ee4, public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()=[Ljava.lang.Class;@5dc9884e}, scenarios=java.beans.PropertyDescriptor[name=scenarios; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios()], setScenarios=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setScenarios(com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[]), title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], features=java.beans.PropertyDescriptor[name=features; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], getOverallStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats(), hashCode=public native int java.lang.Object.hashCode(), class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setOverallStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.setOverallStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), getFeatures=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$FeatureStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getFeatures(), equals=public boolean java.lang.Object.equals(java.lang.Object), overallStats=java.beans.PropertyDescriptor[name=overallStats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getOverallStats()], toString=public java.lang.String java.lang.Object.toString(), getScenarios=public com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean$ScenarioStatusRow[] com.github.mkolisnyk.cucumber.reporting.types.beans.OverviewDataBean.getScenarios(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@7d64ccb3}
+2018-09-30 20:23:32 DEBUG cache:44 - Couldn't find template in cache for "detailed"("en_US", UTF-8, parsed); will try to load it.
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("detailed_en_US"): Not found
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("detailed_en"): Not found
+2018-09-30 20:23:32 DEBUG cache:44 - TemplateLoader.findTemplateSource("detailed"): Found
+2018-09-30 20:23:32 DEBUG cache:44 - Loading template for "detailed"("en_US", UTF-8, parsed) from "detailed"
+2018-09-30 20:23:32 DEBUG cache:44 - "tables"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-09-30 20:23:32 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean. Introspection information for the class is: {getStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats(), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@1e1297e, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String)=[Ljava.lang.Class;@535e5fbd, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@726f0a4d, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@20ad19c6, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@280f6e74, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@90d7f7f, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3ba3171, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@4b917be9, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()=[Ljava.lang.Class;@18bec021, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@7aaab2ce, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[])=[Ljava.lang.Class;@28492553, public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()=[Ljava.lang.Class;@68c75d80, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@6963771, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@2905c9af, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@48070261, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()=[Ljava.lang.Class;@1afe6dbc}, title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], stats=java.beans.PropertyDescriptor[name=stats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()], hashCode=public native int java.lang.Object.hashCode(), screenShotWidth=java.beans.PropertyDescriptor[name=screenShotWidth; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()], results=java.beans.PropertyDescriptor[name=results; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()], class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setResults=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[]), setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), setStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setScreenShotWidth=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String), getScreenShotWidth=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth(), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), equals=public boolean java.lang.Object.equals(java.lang.Object), getResults=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults(), toString=public java.lang.String java.lang.Object.toString(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@2d64fc2d}
+2018-09-30 20:23:32 DEBUG cache:44 - "detailed"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-09-30 20:23:32 DEBUG cache:44 - "tables"("en_US", UTF-8, parsed) cached copy not yet stale; using cached.
+2018-09-30 20:23:32 DEBUG beans:44 - Key "statics" was not found on instance of com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean. Introspection information for the class is: {getStats=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats(), getClass=public final native java.lang.Class java.lang.Object.getClass(), java.lang.Object@a2a8768={public java.lang.String java.lang.Object.toString()=[Ljava.lang.Class;@1e1297e, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String)=[Ljava.lang.Class;@535e5fbd, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats)=[Ljava.lang.Class;@726f0a4d, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()=[Ljava.lang.Class;@20ad19c6, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String)=[Ljava.lang.Class;@280f6e74, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()=[Ljava.lang.Class;@90d7f7f, public native int java.lang.Object.hashCode()=[Ljava.lang.Class;@3ba3171, public boolean java.lang.Object.equals(java.lang.Object)=[Ljava.lang.Class;@4b917be9, public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()=[Ljava.lang.Class;@18bec021, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String)=[Ljava.lang.Class;@7aaab2ce, public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[])=[Ljava.lang.Class;@28492553, public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()=[Ljava.lang.Class;@68c75d80, public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String)=[Ljava.lang.Class;@6963771, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()=[Ljava.lang.Class;@2905c9af, public final native java.lang.Class java.lang.Object.getClass()=[Ljava.lang.Class;@48070261, public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()=[Ljava.lang.Class;@1afe6dbc}, title=java.beans.PropertyDescriptor[name=title; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle()], setPdfPageSize=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setPdfPageSize(java.lang.String), getTitle=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getTitle(), pdfPageSize=java.beans.PropertyDescriptor[name=pdfPageSize; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize()], stats=java.beans.PropertyDescriptor[name=stats; propertyType=class com.github.mkolisnyk.cucumber.reporting.types.OverviewStats; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.OverviewStats com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getStats()], hashCode=public native int java.lang.Object.hashCode(), screenShotWidth=java.beans.PropertyDescriptor[name=screenShotWidth; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth()], results=java.beans.PropertyDescriptor[name=results; propertyType=class [Lcom.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult;; readMethod=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults()], class=java.beans.PropertyDescriptor[name=class; propertyType=class java.lang.Class; readMethod=public final native java.lang.Class java.lang.Object.getClass()], setResults=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setResults(com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[]), setRefreshData=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setRefreshData(java.lang.String), getPdfPageSize=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getPdfPageSize(), setTitle=public void com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.setTitle(java.lang.String), setStats=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setStats(com.github.mkolisnyk.cucumber.reporting.types.OverviewStats), refreshData=java.beans.PropertyDescriptor[name=refreshData; propertyType=class java.lang.String; readMethod=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData()], setScreenShotWidth=public void com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.setScreenShotWidth(java.lang.String), getScreenShotWidth=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getScreenShotWidth(), getRefreshData=public java.lang.String com.github.mkolisnyk.cucumber.reporting.types.beans.CommonDataBean.getRefreshData(), equals=public boolean java.lang.Object.equals(java.lang.Object), getResults=public com.github.mkolisnyk.cucumber.reporting.types.result.CucumberFeatureResult[] com.github.mkolisnyk.cucumber.reporting.types.beans.DetailedReportingDataBean.getResults(), toString=public java.lang.String java.lang.Object.toString(), java.lang.Object@3c3a8807=freemarker.ext.beans.SimpleMethod@2d64fc2d}
