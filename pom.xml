@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <cucumberversion>1.2.5</cucumberversion>
   </properties>
 <build>
    <plugins>
@@ -79,13 +80,13 @@
         <forkCount>7</forkCount>
         <reuseForks>true</reuseForks>
         <includes>
-            <include>**/TestRunner*</include>
+            <include>**/TestRunner.class</include>
         </includes>
     </configuration>
         </plugin>
         
        <!--  this plugin to generate Jenkin JVM report -->
-   <!-- <plugin>
+   <plugin>
         <groupId>net.masterthought</groupId>
         <artifactId>maven-cucumber-reporting</artifactId>
          <version>3.6.0</version>
@@ -98,9 +99,9 @@
             </goals>
             <configuration>
               <projectName>cucumber-jvm-example</projectName>
-              this is similar report as jenkins report
+              <!-- this is similar report as jenkins report -->
               <outputDirectory>${project.build.directory}/cucumber-JVM-reports</outputDirectory>
-               to generate better report-similar to Jenkin report,maven-cucumber-reporting plug-in is used,which reads the generated cucumber.json file in local directory and generates cucumber-JVM-reports
+               <!-- to generate better report-similar to Jenkin report,maven-cucumber-reporting plug-in is used,which reads the generated cucumber.json file in local directory and generates cucumber-JVM-reports -->
               <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
               <skippedFails>true</skippedFails>
               <enableFlashCharts>true</enableFlashCharts>
@@ -108,7 +109,7 @@
             </configuration>
           </execution>
         </executions>
-      </plugin> -->
+      </plugin>
       
     </plugins>
   </build>
@@ -127,12 +128,12 @@
  <dependency>
     <groupId>info.cukes</groupId>
     <artifactId>cucumber-junit</artifactId>
-    <version>1.2.5</version>
+    <version>${cucumberversion}</version>
 </dependency>
 <dependency>
 	<groupId>info.cukes</groupId>
 	<artifactId>cucumber-java</artifactId>
-	<version>1.2.5</version>
+	<version>${cucumberversion}</version>
 </dependency>
 <dependency>
     <groupId>log4j</groupId>

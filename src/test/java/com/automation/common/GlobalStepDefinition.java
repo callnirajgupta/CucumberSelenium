@@ -1,10 +1,14 @@
 package com.automation.common;
 
+import java.net.MalformedURLException;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
+import org.openqa.selenium.WebDriverException;
+
 import com.automation.pageobjectmodel.WelcomePage_PO;
 import com.automation.util.CommonUtil;
 import com.automation.util.SeleniumUtil;
@@ -27,14 +31,22 @@ public class GlobalStepDefinition {
 	private Xls_Reader xlread;
 	private static String runMode;
 	public static Scenario scenario;
+	
+	
+
 	String userName;
+	public static String scenarioname;
+	
+	
+
 	static int count=0;
 	 @Before(order = 0) 
 	public void Setup(Scenario scenario) {
-		 
+		 this.scenario=scenario;
 		seleniumUtil= SeleniumUtil.getInstance();
 		System.out.println("before setup");
 		//GlobalStepDefinition.scenario=scenario;
+		scenarioname=scenario.getName();
 		System.out.println("print sceanrio Name"+scenario.getName());
 		count++;System.out.println("print count"+count);
 		
@@ -83,7 +95,7 @@ public class GlobalStepDefinition {
 	 
 	
 	 @Given("^user \"(.*?)\" login into the application with correct credentials$")
-		public void user_with_password_login_into_the_application_DataTable(String arg1)  {
+		public void user_with_password_login_into_the_application_DataTable(String arg1) throws MalformedURLException  {
 		    // Write code here that turns the phrase above into concrete actions
 		 //good to have...gets fulls path of the class
 		 if(runMode.equalsIgnoreCase("Y")){
@@ -104,7 +116,7 @@ public class GlobalStepDefinition {
 	 
 	 
 	 @Given("^User \"([^\"]*)\" with password \"([^\"]*)\" login into the application with correct credentials$")
-		public void user_with_password_login_into_the_application(String arg1, String arg2)  {
+		public void user_with_password_login_into_the_application(String arg1, String arg2) throws MalformedURLException  {
 		    // Write code here that turns the phrase above into concrete actions
 		 //good to have...gets fulls path of the class
 			LOGGER.info("user "+arg1+" is logged into the application"+LOGGER.getClass().getCanonicalName());		
@@ -148,7 +160,7 @@ public class GlobalStepDefinition {
 		}*/	
 	 
 	@After(order = 0)
-	public void TearDown(Scenario scenario) {
+	public void TearDown(Scenario scenario) throws WebDriverException, MalformedURLException {
 		System.out.println("Tear down"+scenario.getId());
 		if (SeleniumUtil.driverStatus==true){
 		if (scenario.isFailed()) {

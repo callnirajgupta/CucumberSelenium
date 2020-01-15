@@ -80,9 +80,9 @@ includeCoverageTags = {"@passed" },
 outputFolder = "target")*/
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = "src/test/resources/featurefile/Module2", tags = { "@Checkout_Scenarios" }, plugin = {
-		"pretty", "html:target1/cucumber-html-report",
-		"json:target1/cucumber.json", "junit:target1/cucumber.xml" ,"rerun:target1/rerun.txt" }, glue = { "com.automation" } )
+@CucumberOptions(features = "src/test/resources/featurefile/Module2", tags = { "@LoginAndLogout_ExamplesParameters " }, plugin = {
+		"pretty", "html:target/cucumber-html-report",
+		"json:target/cucumber.json", "junit:target/cucumber.xml" ,"rerun:target/rerun.txt" }, glue = { "com.automation" } )
 
 
 public class TestRunner {
@@ -97,10 +97,15 @@ public class TestRunner {
 			
 		}
 		if(System.getProperty("headless")==null){
-			System.setProperty("headless","null");
+			System.setProperty("headless","no");
 		}
 		if(System.getProperty("ENV")==null){
 			System.setProperty("ENV", "SIT");
+			
+		}
+		
+		if(System.getProperty("ExecuteOn")==null){
+			System.setProperty("ExecuteOn", "null");
 			
 		}
 				

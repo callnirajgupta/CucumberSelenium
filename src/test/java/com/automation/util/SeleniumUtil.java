@@ -8,6 +8,7 @@ import java.awt.event.KeyEvent;
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
+import java.net.MalformedURLException;
 import java.text.SimpleDateFormat;
 import java.util.Date;
 import java.util.List;
@@ -25,6 +26,8 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.openqa.selenium.ie.InternetExplorerDriver;
+import org.openqa.selenium.remote.DesiredCapabilities;
+import org.openqa.selenium.remote.RemoteWebDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
@@ -110,7 +113,7 @@ public class SeleniumUtil {
 			return web;	
 		}
 
-		public WebDriver getDriver(){//one instance of webconnector implies as one instance of driver....
+		public WebDriver getDriver() throws MalformedURLException{//one instance of webconnector implies as one instance of driver....
 			if (driver==null){
 				driverStatus=true;
 			//	if("firefox".equalsIgnoreCase(System.getProperty("Browser")) && fireFox==null){
@@ -134,6 +137,20 @@ public class SeleniumUtil {
 				}
 			//else if("Chrome".equalsIgnoreCase(System.getProperty("Browser")) && chrome==null){
 				else if("Chrome".equalsIgnoreCase(System.getProperty("Browser"))){
+					if(System.getProperty("ExecuteOn").equalsIgnoreCase("saucelab")){
+						 String USERNAME = "roboticautomation";
+						   String ACCESS_KEY = "5a8cbd77-9240-46e2-bc4d-8db1a4190794";
+						   String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
+					
+								  DesiredCapabilities caps = DesiredCapabilities.chrome();
+						    caps.setCapability("platform", "Windows 10");
+						    caps.setCapability("version", "65");
+						 
+						    driver = new RemoteWebDriver(new java.net.URL(URL), caps);
+					
+					}else{
+						
+					
 				System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\test\\resources\\chromedriver.exe");
 				ChromeOptions options = new ChromeOptions();
 				if(System.getProperty("headless").equalsIgnoreCase("headless")){
@@ -143,6 +160,7 @@ public class SeleniumUtil {
 				driver= new ChromeDriver(options);	
 						chrome=driver;
 					}
+				}
 				
 		}
 			return driver;

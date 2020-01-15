@@ -1,5 +1,7 @@
 package com.automation.util;
 
+import java.net.MalformedURLException;
+
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
 import org.junit.Assert;
@@ -38,7 +40,7 @@ public class CommonUtil {
 		
 	}
 
-	public  static void login(String userId, String password) {		
+	public  static void login(String userId, String password) throws MalformedURLException {		
 		
 		LOGGER.info("############  INSIDE LOGIN ########################");
 		

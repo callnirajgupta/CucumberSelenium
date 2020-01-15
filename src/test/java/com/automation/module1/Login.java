@@ -1,7 +1,13 @@
 package com.automation.module1;
 
+import java.awt.image.BufferedImage;
+import java.io.ByteArrayOutputStream;
+import java.io.File;
+import java.net.MalformedURLException;
 import java.util.List;
 import java.util.Map;
+
+import javax.imageio.ImageIO;
 
 import org.apache.log4j.LogManager;
 import org.apache.log4j.Logger;
@@ -27,7 +33,7 @@ public class Login {
 	WebDriver driver;//use the code driver=SeleniumUtil.getInstance().getDriver(); inside the respective step definition
 	
 	@Given("^User \"(.*?)\" with password \"(.*?)\" login into the application with correct credentials InlineParameters$")
-	public void user_with_password_login_into_the_application(String arg1, String arg2)  {
+	public void user_with_password_login_into_the_application(String arg1, String arg2) throws MalformedURLException  {
 	    // Write code here that turns the phrase above into concrete actions
 		LOGGER.info("user "+arg1+" is logged into the application"+LOGGER.getClass().getCanonicalName());
 		CommonUtil.login(arg1,arg2);
@@ -67,7 +73,13 @@ public class Login {
 
 	@Given("^User \"(.*?)\" with password \"(.*?)\" login into the application with correct credentials ExamplesParameters$")
 	public void user_with_password_login_into_the_application_with_correct_credentials_ExamplesParameters(String arg1, String arg2) throws Throwable {
-	 
+		
+		BufferedImage bImage = ImageIO.read(new File("E:\\Video\\SeleniumCumber\\src\\test\\resources\\check.png"));
+	      ByteArrayOutputStream bos = new ByteArrayOutputStream();
+	      ImageIO.write(bImage, "jpg", bos );
+	      byte [] data = bos.toByteArray();
+	      
+		GlobalStepDefinition.scenario.embed(data, "image/png");
 		CommonUtil.login(arg1,arg2);
 		SeleniumUtil.ValidateWebElementPresence(By.cssSelector(WelcomePage_PO.WELCOMEPAGE_SIGNOUT_CSS));
 		LOGGER.debug("############  LOGIN SUCCESSFUL for user -   ########################--" +arg1);
@@ -76,7 +88,7 @@ public class Login {
 	
 	
 	@Given("^User login into the application with as per data given DataTableType_KeyValue$")
-	public void user_login_into_the_application_with_as_per_data_given_DataTableType_KeyValue(Map<String, String> table) {
+	public void user_login_into_the_application_with_as_per_data_given_DataTableType_KeyValue(Map<String, String> table) throws MalformedURLException {
 		String userName= table.get("UserName");
 		String password= table.get("Password");
 		
