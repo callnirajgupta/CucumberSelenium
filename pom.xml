@@ -54,7 +54,7 @@
                 <target>1.8</target>
             </configuration>
         </plugin>
-        <plugin>
+        <!-- <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.6.0</version> 
@@ -71,7 +71,7 @@
      </configuration>  
     </execution>  
    </executions>  
-        </plugin>
+        </plugin> -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
@@ -81,6 +81,7 @@
         <reuseForks>true</reuseForks>
         <includes>
             <include>**/TestRunner.class</include>
+              <include>**/TestRunnerRerun.class</include>
         </includes>
     </configuration>
         </plugin>
@@ -89,7 +90,7 @@
    <plugin>
         <groupId>net.masterthought</groupId>
         <artifactId>maven-cucumber-reporting</artifactId>
-         <version>3.6.0</version>
+         <version>5.0.0</version>
         <executions>
           <execution>
             <id>execution</id>
@@ -99,13 +100,16 @@
             </goals>
             <configuration>
               <projectName>cucumber-jvm-example</projectName>
-              <!-- this is similar report as jenkins report -->
               <outputDirectory>${project.build.directory}/cucumber-JVM-reports</outputDirectory>
-               <!-- to generate better report-similar to Jenkin report,maven-cucumber-reporting plug-in is used,which reads the generated cucumber.json file in local directory and generates cucumber-JVM-reports -->
-              <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
-              <skippedFails>true</skippedFails>
-              <enableFlashCharts>true</enableFlashCharts>
-              <buildNumber>42</buildNumber>
+                <enableFlashCharts>true</enableFlashCharts>
+                <buildNumber>42</buildNumber> 
+               <parallelTesting>false</parallelTesting>
+                <inputDirectory>${project.build.directory}</inputDirectory>
+              <jsonFiles>
+              <jsonFile>**/cucumber.json</jsonFile>
+              </jsonFiles>
+              <testFailureIgnore>true</testFailureIgnore>
+              <buildSuccessOnTestFailure>true</buildSuccessOnTestFailure>
             </configuration>
           </execution>
         </executions>
