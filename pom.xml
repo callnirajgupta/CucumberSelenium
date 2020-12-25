@@ -81,7 +81,8 @@
         <reuseForks>true</reuseForks>
         <includes>
             <include>**/TestRunner.class</include>
-              <include>**/TestRunnerRerun.class</include>
+              <include>**/TestRunner2.class</include>
+              <include>**/TestRunner3.class</include>
         </includes>
     </configuration>
         </plugin>

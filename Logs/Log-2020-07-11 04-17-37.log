@@ -1,0 +1,108 @@
+2020-07-11 16:17:38 INFO  GlobalStepDefinition:122 - user callnirajgupta@gmail.com is logged into the applicationorg.apache.log4j.Logger
+2020-07-11 16:17:38 INFO  CommonUtil:45 - ############  INSIDE LOGIN ########################
+2020-07-11 16:17:38 INFO  SeleniumUtil:125 - Inside Firefox browser initialization
+2020-07-11 16:17:40 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 16:17:40 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 16:17:40 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:6259][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 16:17:40 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:6259][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 16:17:40 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:6259
+2020-07-11 16:17:40 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:6259
+2020-07-11 16:17:40 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:64749<->127.0.0.1:6259
+2020-07-11 16:17:40 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2020-07-11 16:17:40 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2020-07-11 16:17:40 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-07-11 16:17:40 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-07-11 16:17:40 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2020-07-11 16:17:40 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-11 16:17:40 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 437
+2020-07-11 16:17:40 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:6259
+2020-07-11 16:17:40 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-11 16:17:40 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2020-07-11 16:17:40 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 437[\r][\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:6259[\r][\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":["-headless"],"prefs":{}}},[\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":["-headless"],"prefs":{}}},[\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "      {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":["-headless"],"prefs":{}}}[\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2020-07-11 16:17:40 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2020-07-11 16:17:40 DEBUG wire:87 - http-outgoing-0 >> "}"
+2020-07-11 16:17:46 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 404 Not Found[\r][\n]"
+2020-07-11 16:17:46 DEBUG wire:73 - http-outgoing-0 << "Connection: close[\r][\n]"
+2020-07-11 16:17:46 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-11 16:17:46 DEBUG wire:73 - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2020-07-11 16:17:46 DEBUG wire:73 - http-outgoing-0 << "Content-Length: 518[\r][\n]"
+2020-07-11 16:17:46 DEBUG wire:73 - http-outgoing-0 << "Date: Sat, 11 Jul 2020 10:47:46 GMT[\r][\n]"
+2020-07-11 16:17:46 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-07-11 16:17:46 DEBUG wire:87 - http-outgoing-0 << "{"value":{"error":"unknown error","message":"newSession","stacktrace":"stack backtrace:\n   0:           0x4bb74f - <no info>\n   1:           0x4bbea9 - <no info>\n   2:           0x43ce8d - <no info>\n   3:           0x44ce14 - <no info>\n   4:           0x44944a - <no info>\n   5:           0x4203e1 - <no info>\n   6:           0x407dc7 - <no info>\n   7:           0x6d95b9 - <no info>\n   8:           0x4173a7 - <no info>\n   9:           0x6d38b3 - <no info>\n  10:     0x7ffc6e616fd4 - BaseThreadInitThunk"}}"
+2020-07-11 16:17:46 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 404 Not Found
+2020-07-11 16:17:46 DEBUG headers:125 - http-outgoing-0 << Connection: close
+2020-07-11 16:17:46 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json; charset=utf-8
+2020-07-11 16:17:46 DEBUG headers:125 - http-outgoing-0 << Cache-Control: no-cache
+2020-07-11 16:17:46 DEBUG headers:125 - http-outgoing-0 << Content-Length: 518
+2020-07-11 16:17:46 DEBUG headers:125 - http-outgoing-0 << Date: Sat, 11 Jul 2020 10:47:46 GMT
+2020-07-11 16:17:46 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-07-11 16:17:46 DEBUG MainClientExec:104 - Connection discarded
+2020-07-11 16:17:46 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:6259][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 16:17:46 INFO  SeleniumUtil:125 - Inside Firefox browser initialization
+2020-07-11 16:17:47 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 16:17:47 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 16:17:47 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:3797][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 16:17:47 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 1][route: {}->http://localhost:3797][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 16:17:47 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:3797
+2020-07-11 16:17:47 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:3797
+2020-07-11 16:17:47 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:64782<->127.0.0.1:3797
+2020-07-11 16:17:47 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-1: set socket timeout to 10800000
+2020-07-11 16:17:47 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2020-07-11 16:17:47 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-07-11 16:17:47 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-07-11 16:17:47 DEBUG headers:133 - http-outgoing-1 >> POST /session HTTP/1.1
+2020-07-11 16:17:47 DEBUG headers:136 - http-outgoing-1 >> Content-Type: application/json; charset=utf-8
+2020-07-11 16:17:47 DEBUG headers:136 - http-outgoing-1 >> Content-Length: 437
+2020-07-11 16:17:47 DEBUG headers:136 - http-outgoing-1 >> Host: localhost:3797
+2020-07-11 16:17:47 DEBUG headers:136 - http-outgoing-1 >> Connection: Keep-Alive
+2020-07-11 16:17:47 DEBUG headers:136 - http-outgoing-1 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2020-07-11 16:17:47 DEBUG headers:136 - http-outgoing-1 >> Accept-Encoding: gzip,deflate
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "POST /session HTTP/1.1[\r][\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "Content-Length: 437[\r][\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "Host: localhost:3797[\r][\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "[\r][\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "{[\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "  "desiredCapabilities": {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":["-headless"],"prefs":{}}},[\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "  "capabilities": {[\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "    "desiredCapabilities": {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":["-headless"],"prefs":{}}},[\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "    "firstMatch": [[\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "      {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":["-headless"],"prefs":{}}}[\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "    ][\n]"
+2020-07-11 16:17:47 DEBUG wire:73 - http-outgoing-1 >> "  }[\n]"
+2020-07-11 16:17:47 DEBUG wire:87 - http-outgoing-1 >> "}"
+2020-07-11 16:17:52 DEBUG wire:73 - http-outgoing-1 << "HTTP/1.1 404 Not Found[\r][\n]"
+2020-07-11 16:17:52 DEBUG wire:73 - http-outgoing-1 << "Connection: close[\r][\n]"
+2020-07-11 16:17:52 DEBUG wire:73 - http-outgoing-1 << "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-11 16:17:52 DEBUG wire:73 - http-outgoing-1 << "Cache-Control: no-cache[\r][\n]"
+2020-07-11 16:17:52 DEBUG wire:73 - http-outgoing-1 << "Content-Length: 518[\r][\n]"
+2020-07-11 16:17:52 DEBUG wire:73 - http-outgoing-1 << "Date: Sat, 11 Jul 2020 10:47:52 GMT[\r][\n]"
+2020-07-11 16:17:52 DEBUG wire:73 - http-outgoing-1 << "[\r][\n]"
+2020-07-11 16:17:52 DEBUG wire:87 - http-outgoing-1 << "{"value":{"error":"unknown error","message":"newSession","stacktrace":"stack backtrace:\n   0:           0x4bb74f - <no info>\n   1:           0x4bbea9 - <no info>\n   2:           0x43ce8d - <no info>\n   3:           0x44ce14 - <no info>\n   4:           0x44944a - <no info>\n   5:           0x4203e1 - <no info>\n   6:           0x407dc7 - <no info>\n   7:           0x6d95b9 - <no info>\n   8:           0x4173a7 - <no info>\n   9:           0x6d38b3 - <no info>\n  10:     0x7ffc6e616fd4 - BaseThreadInitThunk"}}"
+2020-07-11 16:17:52 DEBUG headers:122 - http-outgoing-1 << HTTP/1.1 404 Not Found
+2020-07-11 16:17:52 DEBUG headers:125 - http-outgoing-1 << Connection: close
+2020-07-11 16:17:52 DEBUG headers:125 - http-outgoing-1 << Content-Type: application/json; charset=utf-8
+2020-07-11 16:17:52 DEBUG headers:125 - http-outgoing-1 << Cache-Control: no-cache
+2020-07-11 16:17:52 DEBUG headers:125 - http-outgoing-1 << Content-Length: 518
+2020-07-11 16:17:52 DEBUG headers:125 - http-outgoing-1 << Date: Sat, 11 Jul 2020 10:47:52 GMT
+2020-07-11 16:17:52 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-1: Close connection
+2020-07-11 16:17:52 DEBUG MainClientExec:104 - Connection discarded
+2020-07-11 16:17:52 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://localhost:3797][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]

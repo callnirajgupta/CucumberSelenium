@@ -13,8 +13,8 @@ And verify that User successfully log out of the application
 
 
 Examples:
-|User      |Password|Item|SKU|
-|admin@p.com|Password-11|Faded Short Sleeve T-shirts|SKU : demo_1|
+|User                    |Password|Item|SKU|
+|callnirajgupta@gmail.com|password1|Faded Short Sleeve T-shirts|SKU : demo_1|
 
 
 	

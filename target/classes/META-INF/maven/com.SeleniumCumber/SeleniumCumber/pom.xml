@@ -12,6 +12,7 @@
 
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <cucumberversion>1.2.5</cucumberversion>
   </properties>
 <build>
    <plugins>
@@ -53,7 +54,7 @@
                 <target>1.8</target>
             </configuration>
         </plugin>
-        <plugin>
+        <!-- <plugin>
         <groupId>org.codehaus.mojo</groupId>
         <artifactId>exec-maven-plugin</artifactId>
         <version>1.6.0</version> 
@@ -70,7 +71,7 @@
      </configuration>  
     </execution>  
    </executions>  
-        </plugin>
+        </plugin> -->
         <plugin>
           <groupId>org.apache.maven.plugins</groupId>
           <artifactId>maven-surefire-plugin</artifactId>
@@ -79,16 +80,18 @@
         <forkCount>7</forkCount>
         <reuseForks>true</reuseForks>
         <includes>
-            <include>**/TestRunner*</include>
+            <include>**/TestRunner.class</include>
+              <include>**/TestRunner2.class</include>
+              <include>**/TestRunner3.class</include>
         </includes>
     </configuration>
         </plugin>
         
        <!--  this plugin to generate Jenkin JVM report -->
-   <!-- <plugin>
+   <plugin>
         <groupId>net.masterthought</groupId>
         <artifactId>maven-cucumber-reporting</artifactId>
-         <version>3.6.0</version>
+         <version>5.0.0</version>
         <executions>
           <execution>
             <id>execution</id>
@@ -98,17 +101,20 @@
             </goals>
             <configuration>
               <projectName>cucumber-jvm-example</projectName>
-              this is similar report as jenkins report
               <outputDirectory>${project.build.directory}/cucumber-JVM-reports</outputDirectory>
-               to generate better report-similar to Jenkin report,maven-cucumber-reporting plug-in is used,which reads the generated cucumber.json file in local directory and generates cucumber-JVM-reports
-              <cucumberOutput>${project.build.directory}/cucumber.json</cucumberOutput>
-              <skippedFails>true</skippedFails>
-              <enableFlashCharts>true</enableFlashCharts>
-              <buildNumber>42</buildNumber>
+                <enableFlashCharts>true</enableFlashCharts>
+                <buildNumber>42</buildNumber> 
+               <parallelTesting>false</parallelTesting>
+                <inputDirectory>${project.build.directory}</inputDirectory>
+              <jsonFiles>
+              <jsonFile>**/cucumber.json</jsonFile>
+              </jsonFiles>
+              <testFailureIgnore>true</testFailureIgnore>
+              <buildSuccessOnTestFailure>true</buildSuccessOnTestFailure>
             </configuration>
           </execution>
         </executions>
-      </plugin> -->
+      </plugin>
       
     </plugins>
   </build>
@@ -127,12 +133,12 @@
  <dependency>
     <groupId>info.cukes</groupId>
     <artifactId>cucumber-junit</artifactId>
-    <version>1.2.5</version>
+    <version>${cucumberversion}</version>
 </dependency>
 <dependency>
 	<groupId>info.cukes</groupId>
 	<artifactId>cucumber-java</artifactId>
-	<version>1.2.5</version>
+	<version>${cucumberversion}</version>
 </dependency>
 <dependency>
     <groupId>log4j</groupId>

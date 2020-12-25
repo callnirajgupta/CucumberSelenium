@@ -1,7 +1,7 @@
 @Checkout_Scenarios
 Feature: Checkout related scenarios like add to cart,remove,payment etc.
 
-@AddToCart
+@parallell
 Scenario Outline: Add a single item into cart and then remove it
 Given User "<User>" with password "<Password>" login into the application with correct credentials
 When user searches for the "<Item>" 

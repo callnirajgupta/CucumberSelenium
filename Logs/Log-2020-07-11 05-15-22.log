@@ -1,0 +1,60 @@
+2020-07-11 17:15:24 INFO  GlobalStepDefinition:122 - user callnirajgupta@gmail.com is logged into the applicationorg.apache.log4j.Logger
+2020-07-11 17:15:24 INFO  CommonUtil:45 - ############  INSIDE LOGIN ########################
+2020-07-11 17:15:27 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 17:15:27 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 17:15:27 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 17:15:27 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 17:15:27 DEBUG MainClientExec:235 - Opening connection {}->http://192.168.0.8:4444
+2020-07-11 17:15:27 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.0.8:4444
+2020-07-11 17:15:27 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.8:50404<->192.168.0.8:4444
+2020-07-11 17:15:27 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2020-07-11 17:15:27 DEBUG MainClientExec:256 - Executing request POST /wd/hub/session HTTP/1.1
+2020-07-11 17:15:27 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-07-11 17:15:27 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-07-11 17:15:27 DEBUG headers:133 - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+2020-07-11 17:15:27 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-11 17:15:27 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 404
+2020-07-11 17:15:27 DEBUG headers:136 - http-outgoing-0 >> Host: 192.168.0.8:4444
+2020-07-11 17:15:27 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-11 17:15:27 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2020-07-11 17:15:27 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 404[\r][\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "Host: 192.168.0.8:4444[\r][\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":[],"prefs":{}}},[\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":[],"prefs":{}}},[\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "      {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":[],"prefs":{}}}[\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2020-07-11 17:15:27 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2020-07-11 17:15:27 DEBUG wire:87 - http-outgoing-0 >> "}"
+2020-07-11 17:23:00 DEBUG wire:87 - http-outgoing-0 << "end of stream"
+2020-07-11 17:23:01 DEBUG DefaultManagedHttpClientConnection:79 - http-outgoing-0: Close connection
+2020-07-11 17:23:01 DEBUG DefaultManagedHttpClientConnection:96 - http-outgoing-0: Shutdown connection
+2020-07-11 17:23:01 DEBUG MainClientExec:129 - Connection discarded
+2020-07-11 17:23:01 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 17:23:03 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 17:23:03 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 17:23:03 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 17:23:03 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 1][route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 17:23:03 DEBUG MainClientExec:235 - Opening connection {}->http://192.168.0.8:4444
+2020-07-11 17:23:03 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.0.8:4444
+2020-07-11 17:23:05 DEBUG DefaultManagedHttpClientConnection:96 - http-outgoing-1: Shutdown connection
+2020-07-11 17:23:05 DEBUG MainClientExec:129 - Connection discarded
+2020-07-11 17:23:05 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 17:23:05 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 17:23:05 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 17:23:05 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 17:23:05 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 2][route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 17:23:05 DEBUG MainClientExec:235 - Opening connection {}->http://192.168.0.8:4444
+2020-07-11 17:23:05 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.0.8:4444
+2020-07-11 17:23:07 DEBUG DefaultManagedHttpClientConnection:96 - http-outgoing-2: Shutdown connection
+2020-07-11 17:23:07 DEBUG MainClientExec:129 - Connection discarded
+2020-07-11 17:23:07 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 2][route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]

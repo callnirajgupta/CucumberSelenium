@@ -1,0 +1,121 @@
+2020-07-11 17:02:57 INFO  GlobalStepDefinition:122 - user callnirajgupta@gmail.com is logged into the applicationorg.apache.log4j.Logger
+2020-07-11 17:02:57 INFO  CommonUtil:45 - ############  INSIDE LOGIN ########################
+2020-07-11 17:02:59 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 17:02:59 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 17:02:59 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 17:02:59 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 17:02:59 DEBUG MainClientExec:235 - Opening connection {}->http://192.168.0.8:4444
+2020-07-11 17:02:59 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.0.8:4444
+2020-07-11 17:02:59 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 192.168.0.8:49849<->192.168.0.8:4444
+2020-07-11 17:02:59 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2020-07-11 17:02:59 DEBUG MainClientExec:256 - Executing request POST /wd/hub/session HTTP/1.1
+2020-07-11 17:02:59 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-07-11 17:03:00 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-07-11 17:03:00 DEBUG headers:133 - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+2020-07-11 17:03:00 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-11 17:03:00 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 404
+2020-07-11 17:03:00 DEBUG headers:136 - http-outgoing-0 >> Host: 192.168.0.8:4444
+2020-07-11 17:03:00 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-11 17:03:00 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2020-07-11 17:03:00 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 404[\r][\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "Host: 192.168.0.8:4444[\r][\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":[],"prefs":{}}},[\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":[],"prefs":{}}},[\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "      {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":[],"prefs":{}}}[\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2020-07-11 17:03:00 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2020-07-11 17:03:00 DEBUG wire:87 - http-outgoing-0 >> "}"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "Date: Sat, 11 Jul 2020 11:33:54 GMT[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "Server: Jetty(9.4.z-SNAPSHOT)[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "Cache-Control: no-cache[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "Expires: Thu, 01 Jan 1970 00:00:00 GMT[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "Content-Type: application/json;charset=utf-8[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "Content-Length: 1021[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "{[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "  "value": {[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "    "sessionId": "f63ff09d-5a5f-4adb-83f6-0755bafa3f26",[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "    "capabilities": {[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "acceptInsecureCerts": true,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "browserName": "firefox",[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "browserVersion": "76.0.1",[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "moz:accessibilityChecks": false,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "moz:buildID": "20200507114007",[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "moz:geckodriverVersion": "0.26.0",[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "moz:headless": false,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "moz:processID": 91,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "moz:profile": "\u002ftmp\u002frust_mozprofileWtECAz",[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "moz:shutdownTimeout": 60000,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "moz:useNonSpecCompliantPointerOrigin": false,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "moz:webdriverClick": true,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "pageLoadStrategy": "normal",[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "platformName": "linux",[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "platformVersion": "4.19.104-microsoft-standard",[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "rotatable": false,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "setWindowRect": true,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "strictFileInteractability": false,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "timeouts": {[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "        "implicit": 0,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "        "pageLoad": 300000,[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "        "script": 30000[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      },[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "unhandledPromptBehavior": "dismiss and notify",[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "      "webdriver.remote.sessionid": "f63ff09d-5a5f-4adb-83f6-0755bafa3f26"[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "    }[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 << "  }[\n]"
+2020-07-11 17:04:02 DEBUG wire:87 - http-outgoing-0 << "}"
+2020-07-11 17:04:02 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-07-11 17:04:02 DEBUG headers:125 - http-outgoing-0 << Date: Sat, 11 Jul 2020 11:33:54 GMT
+2020-07-11 17:04:02 DEBUG headers:125 - http-outgoing-0 << Server: Jetty(9.4.z-SNAPSHOT)
+2020-07-11 17:04:02 DEBUG headers:125 - http-outgoing-0 << Cache-Control: no-cache
+2020-07-11 17:04:02 DEBUG headers:125 - http-outgoing-0 << Expires: Thu, 01 Jan 1970 00:00:00 GMT
+2020-07-11 17:04:02 DEBUG headers:125 - http-outgoing-0 << Content-Type: application/json;charset=utf-8
+2020-07-11 17:04:02 DEBUG headers:125 - http-outgoing-0 << Content-Length: 1021
+2020-07-11 17:04:02 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-07-11 17:04:02 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://192.168.0.8:4444] can be kept alive indefinitely
+2020-07-11 17:04:02 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://192.168.0.8:4444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 17:04:02 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 17:04:02 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 17:04:02 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://192.168.0.8:4444][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 17:04:02 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://192.168.0.8:4444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 17:04:02 DEBUG MainClientExec:208 - Stale connection check
+2020-07-11 17:04:02 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-07-11 17:04:02 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2020-07-11 17:04:02 DEBUG MainClientExec:256 - Executing request POST /wd/hub/session HTTP/1.1
+2020-07-11 17:04:02 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-07-11 17:04:02 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-07-11 17:04:02 DEBUG headers:133 - http-outgoing-0 >> POST /wd/hub/session HTTP/1.1
+2020-07-11 17:04:02 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-07-11 17:04:02 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 404
+2020-07-11 17:04:02 DEBUG headers:136 - http-outgoing-0 >> Host: 192.168.0.8:4444
+2020-07-11 17:04:02 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-07-11 17:04:02 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2020-07-11 17:04:02 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "POST /wd/hub/session HTTP/1.1[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 404[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "Host: 192.168.0.8:4444[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":[],"prefs":{}}},[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":[],"prefs":{}}},[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "      {"acceptInsecureCerts":true,"browserName":"firefox","moz:firefoxOptions":{"args":[],"prefs":{}}}[\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2020-07-11 17:04:02 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2020-07-11 17:04:02 DEBUG wire:87 - http-outgoing-0 >> "}"

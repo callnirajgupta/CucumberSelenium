@@ -1,4 +1,4 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("AddToCart.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("src/test/resources/featurefile/Module2/AddToCart.feature");
 formatter.feature({
   "line": 2,
   "name": "Checkout related scenarios like add to cart,remove,payment etc.",
@@ -83,8 +83,8 @@ formatter.examples({
     },
     {
       "cells": [
-        "admin@p.com",
-        "Password-11",
+        "callnirajgupta@gmail.com",
+        "password1",
         "Faded Short Sleeve T-shirts",
         "SKU : demo_1"
       ],
@@ -95,7 +95,7 @@ formatter.examples({
   "keyword": "Examples"
 });
 formatter.before({
-  "duration": 710718194,
+  "duration": 2827795400,
   "status": "passed"
 });
 formatter.scenario({
@@ -122,7 +122,7 @@ formatter.scenario({
 });
 formatter.step({
   "line": 6,
-  "name": "User \"admin@p.com\" with password \"Password-11\" login into the application with correct credentials",
+  "name": "User \"callnirajgupta@gmail.com\" with password \"password1\" login into the application with correct credentials",
   "matchedColumns": [
     0,
     1
@@ -168,20 +168,19 @@ formatter.step({
 formatter.match({
   "arguments": [
     {
-      "val": "admin@p.com",
+      "val": "callnirajgupta@gmail.com",
       "offset": 6
     },
     {
-      "val": "Password-11",
-      "offset": 34
+      "val": "password1",
+      "offset": 47
     }
   ],
   "location": "GlobalStepDefinition.user_with_password_login_into_the_application(String,String)"
 });
 formatter.result({
-  "duration": 304705655744,
-  "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d73.0.3683.86)\n  (Driver info: chromedriver\u003d2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform\u003dWindows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027SAI-PC\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Users\\sai\\AppData\\Local\\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}\nSession ID: 0159b8d19aa849a006da72e2ea7c630b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)\r\n\tat com.automation.util.SeleniumUtil.launchApplication(SeleniumUtil.java:167)\r\n\tat com.automation.util.CommonUtil.login(CommonUtil.java:51)\r\n\tat com.automation.common.GlobalStepDefinition.user_with_password_login_into_the_application(GlobalStepDefinition.java:112)\r\n\tat ✽.Given User \"admin@p.com\" with password \"Password-11\" login into the application with correct credentials(AddToCart.feature:6)\r\n",
-  "status": "failed"
+  "duration": 39568345500,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -193,19 +192,22 @@ formatter.match({
   "location": "AddToCart.user_searches_for_the(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 173100,
+  "status": "passed"
 });
 formatter.match({
   "location": "AddToCart.verify_item_is_present()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 20800,
+  "status": "passed"
 });
 formatter.match({
   "location": "AddToCart.summary_section_shows_the_added_item()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 22900,
+  "status": "passed"
 });
 formatter.match({
   "arguments": [
@@ -217,23 +219,156 @@ formatter.match({
   "location": "AddToCart.user_clicks_on_delete(String)"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 66400,
+  "status": "passed"
 });
 formatter.match({
   "location": "AddToCart.Then_added_item_should_be_removed()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 32800,
+  "status": "passed"
 });
 formatter.match({
   "location": "Login.user_successfully_log_out_of_the_application_after_clicking_on_log_out_button()"
 });
 formatter.result({
-  "status": "skipped"
+  "duration": 134200,
+  "status": "passed"
 });
+formatter.embedding("image/png", "embedded0.png");
+formatter.write("hello");
 formatter.after({
-  "duration": 300022382635,
-  "error_message": "org.openqa.selenium.TimeoutException: timeout\n  (Session info: chrome\u003d73.0.3683.86)\n  (Driver info: chromedriver\u003d2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform\u003dWindows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)\nCommand duration or timeout: 0 milliseconds\nBuild info: version: \u00273.8.1\u0027, revision: \u00276e95a6684b\u0027, time: \u00272017-12-01T18:33:54.468Z\u0027\nSystem info: host: \u0027SAI-PC\u0027, ip: \u0027192.168.56.1\u0027, os.name: \u0027Windows 7\u0027, os.arch: \u0027amd64\u0027, os.version: \u00276.1\u0027, java.version: \u00271.8.0_161\u0027\nDriver info: org.openqa.selenium.chrome.ChromeDriver\nCapabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\\Users\\sai\\AppData\\Local\\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}\nSession ID: 0159b8d19aa849a006da72e2ea7c630b\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)\r\n\tat sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)\r\n\tat java.lang.reflect.Constructor.newInstance(Constructor.java:423)\r\n\tat org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)\r\n\tat org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)\r\n\tat org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)\r\n\tat org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)\r\n\tat org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)\r\n\tat org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:658)\r\n\tat org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:343)\r\n\tat com.automation.common.GlobalStepDefinition.TearDown(GlobalStepDefinition.java:156)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)\r\n\tat sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)\r\n\tat sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)\r\n\tat java.lang.reflect.Method.invoke(Method.java:498)\r\n\tat cucumber.runtime.Utils$1.call(Utils.java:40)\r\n\tat cucumber.runtime.Timeout.timeout(Timeout.java:16)\r\n\tat cucumber.runtime.Utils.invoke(Utils.java:34)\r\n\tat cucumber.runtime.java.JavaHookDefinition.execute(JavaHookDefinition.java:60)\r\n\tat cucumber.runtime.Runtime.runHookIfTagsMatch(Runtime.java:224)\r\n\tat cucumber.runtime.Runtime.runHooks(Runtime.java:212)\r\n\tat cucumber.runtime.Runtime.runAfterHooks(Runtime.java:206)\r\n\tat cucumber.runtime.model.CucumberScenario.run(CucumberScenario.java:46)\r\n\tat cucumber.runtime.junit.ExecutionUnitRunner.run(ExecutionUnitRunner.java:102)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ExamplesRunner.run(ExamplesRunner.java:59)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:128)\r\n\tat org.junit.runners.Suite.runChild(Suite.java:27)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.ScenarioOutlineRunner.run(ScenarioOutlineRunner.java:53)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:63)\r\n\tat cucumber.runtime.junit.FeatureRunner.runChild(FeatureRunner.java:18)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.runtime.junit.FeatureRunner.run(FeatureRunner.java:70)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:95)\r\n\tat cucumber.api.junit.Cucumber.runChild(Cucumber.java:38)\r\n\tat org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)\r\n\tat org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)\r\n\tat org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)\r\n\tat org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)\r\n\tat org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)\r\n\tat org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:26)\r\n\tat org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:27)\r\n\tat org.junit.runners.ParentRunner.run(ParentRunner.java:363)\r\n\tat cucumber.api.junit.Cucumber.run(Cucumber.java:100)\r\n\tat org.eclipse.jdt.internal.junit4.runner.JUnit4TestReference.run(JUnit4TestReference.java:86)\r\n\tat org.eclipse.jdt.internal.junit.runner.TestExecution.run(TestExecution.java:38)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:459)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.runTests(RemoteTestRunner.java:675)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.run(RemoteTestRunner.java:382)\r\n\tat org.eclipse.jdt.internal.junit.runner.RemoteTestRunner.main(RemoteTestRunner.java:192)\r\n",
-  "status": "failed"
+  "duration": 759988500,
+  "status": "passed"
+});
+formatter.uri("src/test/resources/featurefile/Module2/Login.feature");
+formatter.feature({
+  "line": 2,
+  "name": "Check login and register related scenarios",
+  "description": "",
+  "id": "check-login-and-register-related-scenarios",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "line": 1,
+      "name": "@LoginandRegisterRelatedScenarios"
+    }
+  ]
+});
+formatter.scenarioOutline({
+  "line": 6,
+  "name": "login with ExamplesParameters",
+  "description": "",
+  "id": "check-login-and-register-related-scenarios;login-with-examplesparameters",
+  "type": "scenario_outline",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 5,
+      "name": "@LoginAndLogout_ExamplesParameters"
+    }
+  ]
+});
+formatter.step({
+  "line": 7,
+  "name": "User \"\u003cUser\u003e\" with password \"\u003cPassword\u003e\" login into the application with correct credentials ExamplesParameters",
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "User successfully log out of the application after clicking on log out button",
+  "keyword": "Given "
+});
+formatter.examples({
+  "line": 9,
+  "name": "",
+  "description": "",
+  "id": "check-login-and-register-related-scenarios;login-with-examplesparameters;",
+  "rows": [
+    {
+      "cells": [
+        "User",
+        "Password"
+      ],
+      "line": 10,
+      "id": "check-login-and-register-related-scenarios;login-with-examplesparameters;;1"
+    },
+    {
+      "cells": [
+        "callnirajgupta@gmail.com",
+        "password1"
+      ],
+      "line": 11,
+      "id": "check-login-and-register-related-scenarios;login-with-examplesparameters;;2"
+    }
+  ],
+  "keyword": "Examples"
+});
+formatter.before({
+  "duration": 287782800,
+  "status": "passed"
+});
+formatter.scenario({
+  "line": 11,
+  "name": "login with ExamplesParameters",
+  "description": "",
+  "id": "check-login-and-register-related-scenarios;login-with-examplesparameters;;2",
+  "type": "scenario",
+  "keyword": "Scenario Outline",
+  "tags": [
+    {
+      "line": 5,
+      "name": "@LoginAndLogout_ExamplesParameters"
+    },
+    {
+      "line": 1,
+      "name": "@LoginandRegisterRelatedScenarios"
+    }
+  ]
+});
+formatter.step({
+  "line": 7,
+  "name": "User \"callnirajgupta@gmail.com\" with password \"password1\" login into the application with correct credentials ExamplesParameters",
+  "matchedColumns": [
+    0,
+    1
+  ],
+  "keyword": "Given "
+});
+formatter.step({
+  "line": 8,
+  "name": "User successfully log out of the application after clicking on log out button",
+  "keyword": "Given "
+});
+formatter.match({
+  "arguments": [
+    {
+      "val": "callnirajgupta@gmail.com",
+      "offset": 6
+    },
+    {
+      "val": "password1",
+      "offset": 47
+    }
+  ],
+  "location": "Login.user_with_password_login_into_the_application_with_correct_credentials_ExamplesParameters(String,String)"
+});
+formatter.result({
+  "duration": 29861047800,
+  "status": "passed"
+});
+formatter.match({
+  "location": "GlobalStepDefinition.user_successfully_log_out_of_the_application_after_clicking_on_log_out_button()"
+});
+formatter.result({
+  "duration": 2942158600,
+  "status": "passed"
+});
+formatter.embedding("image/png", "embedded1.png");
+formatter.write("hello");
+formatter.after({
+  "duration": 2122132100,
+  "status": "passed"
 });
 });

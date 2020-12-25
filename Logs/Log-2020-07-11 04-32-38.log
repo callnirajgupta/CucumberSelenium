@@ -1,0 +1,39 @@
+2020-07-11 16:32:40 INFO  CommonUtil:45 - ############  INSIDE LOGIN ########################
+2020-07-11 16:32:40 INFO  GlobalStepDefinition:122 - user callnirajgupta@gmail.com is logged into the applicationorg.apache.log4j.Logger
+2020-07-11 16:32:40 INFO  CommonUtil:45 - ############  INSIDE LOGIN ########################
+2020-07-11 16:32:42 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 16:32:42 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 16:32:42 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 16:32:42 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 16:32:42 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 16:32:42 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 16:32:42 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 16:32:42 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 16:32:42 DEBUG MainClientExec:235 - Opening connection {}->http://192.168.0.6:4444
+2020-07-11 16:32:42 DEBUG MainClientExec:235 - Opening connection {}->http://192.168.0.6:4444
+2020-07-11 16:32:42 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.0.6:4444
+2020-07-11 16:32:42 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.0.6:4444
+2020-07-11 16:33:03 DEBUG DefaultManagedHttpClientConnection:96 - http-outgoing-0: Shutdown connection
+2020-07-11 16:33:03 DEBUG MainClientExec:129 - Connection discarded
+2020-07-11 16:33:03 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 16:33:03 DEBUG DefaultManagedHttpClientConnection:96 - http-outgoing-0: Shutdown connection
+2020-07-11 16:33:03 DEBUG MainClientExec:129 - Connection discarded
+2020-07-11 16:33:03 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 16:33:03 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 16:33:03 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 16:33:03 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 16:33:03 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 1][route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 16:33:03 DEBUG MainClientExec:235 - Opening connection {}->http://192.168.0.6:4444
+2020-07-11 16:33:03 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.0.6:4444
+2020-07-11 16:33:03 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-07-11 16:33:03 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-07-11 16:33:03 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 16:33:03 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 1][route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-07-11 16:33:03 DEBUG MainClientExec:235 - Opening connection {}->http://192.168.0.6:4444
+2020-07-11 16:33:03 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to /192.168.0.6:4444
+2020-07-11 16:33:24 DEBUG DefaultManagedHttpClientConnection:96 - http-outgoing-1: Shutdown connection
+2020-07-11 16:33:24 DEBUG DefaultManagedHttpClientConnection:96 - http-outgoing-1: Shutdown connection
+2020-07-11 16:33:24 DEBUG MainClientExec:129 - Connection discarded
+2020-07-11 16:33:24 DEBUG MainClientExec:129 - Connection discarded
+2020-07-11 16:33:24 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-07-11 16:33:24 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 1][route: {}->http://192.168.0.6:4444][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]

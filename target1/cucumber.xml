@@ -1,41 +1,18 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="605.438757">
-<testcase classname="Checkout related scenarios like add to cart,remove,payment etc." name="Add a single item into cart and then remove it" time="605.438757">
-<failure message="org.openqa.selenium.TimeoutException: timeout&#10;  (Session info: chrome=73.0.3683.86)&#10;  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)&#10;Command duration or timeout: 0 milliseconds&#10;Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'&#10;System info: host: 'SAI-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sai\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}&#10;Session ID: 0159b8d19aa849a006da72e2ea7c630b&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)&#13;&#10;&#9;at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)&#13;&#10;&#9;at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)&#13;&#10;&#9;at java.lang.reflect.Constructor.newInstance(Constructor.java:423)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)&#13;&#10;&#9;at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)&#13;&#10;&#9;at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)&#13;&#10;&#9;at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)&#13;&#10;&#9;at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)&#13;&#10;&#9;at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)&#13;&#10;&#9;at com.automation.util.SeleniumUtil.launchApplication(SeleniumUtil.java:167)&#13;&#10;&#9;at com.automation.util.CommonUtil.login(CommonUtil.java:51)&#13;&#10;&#9;at com.automation.common.GlobalStepDefinition.user_with_password_login_into_the_application(GlobalStepDefinition.java:112)&#13;&#10;&#9;at ✽.Given User &quot;admin@p.com&quot; with password &quot;Password-11&quot; login into the application with correct credentials(AddToCart.feature:6)&#13;&#10;"><![CDATA[Given User "admin@p.com" with password "Password-11" login into the application with correct credentials.failed
-When user searches for the "Faded Short Sleeve T-shirts"....................skipped
-And user Add To Cart and Proceed to checkout................................skipped
-Then summary section shows the added item...................................skipped
-When user delete the item with sku as "SKU : demo_1"........................skipped
-Then added item should be removed...........................................skipped
-And verify that User successfully log out of the application................skipped
-
-StackTrace:
-org.openqa.selenium.TimeoutException: timeout
-  (Session info: chrome=73.0.3683.86)
-  (Driver info: chromedriver=2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73),platform=Windows NT 6.1.7600 x86_64) (WARNING: The server did not provide any stacktrace information)
-Command duration or timeout: 0 milliseconds
-Build info: version: '3.8.1', revision: '6e95a6684b', time: '2017-12-01T18:33:54.468Z'
-System info: host: 'SAI-PC', ip: '192.168.56.1', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_161'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, acceptSslCerts: false, applicationCacheEnabled: false, browserConnectionEnabled: false, browserName: chrome, chrome: {chromedriverVersion: 2.35.528161 (5b82f2d2aae0ca..., userDataDir: C:\Users\sai\AppData\Local\...}, cssSelectorsEnabled: true, databaseEnabled: false, handlesAlerts: true, hasTouchScreen: false, javascriptEnabled: true, locationContextEnabled: true, mobileEmulationEnabled: false, nativeEvents: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: XP, platformName: XP, rotatable: false, setWindowRect: true, takesHeapSnapshot: true, takesScreenshot: true, unexpectedAlertBehaviour: , unhandledPromptBehavior: , version: 73.0.3683.86, webStorageEnabled: true}
-Session ID: 0159b8d19aa849a006da72e2ea7c630b
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-	at sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
-	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-	at java.lang.reflect.Constructor.newInstance(Constructor.java:423)
-	at org.openqa.selenium.remote.ErrorHandler.createThrowable(ErrorHandler.java:214)
-	at org.openqa.selenium.remote.ErrorHandler.throwIfResponseFailed(ErrorHandler.java:166)
-	at org.openqa.selenium.remote.http.JsonHttpResponseCodec.reconstructValue(JsonHttpResponseCodec.java:40)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:80)
-	at org.openqa.selenium.remote.http.AbstractHttpResponseCodec.decode(AbstractHttpResponseCodec.java:44)
-	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:164)
-	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
-	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:601)
-	at org.openqa.selenium.remote.RemoteWebDriver.get(RemoteWebDriver.java:325)
-	at com.automation.util.SeleniumUtil.launchApplication(SeleniumUtil.java:167)
-	at com.automation.util.CommonUtil.login(CommonUtil.java:51)
-	at com.automation.common.GlobalStepDefinition.user_with_password_login_into_the_application(GlobalStepDefinition.java:112)
-	at ✽.Given User "admin@p.com" with password "Password-11" login into the application with correct credentials(AddToCart.feature:6)
-]]></failure>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="78.369701">
+<testcase classname="Checkout related scenarios like add to cart,remove,payment etc." name="Add a single item into cart and then remove it" time="43.15658">
+<system-out><![CDATA[Given User "callnirajgupta@gmail.com" with password "password1" login into the application with correct credentials.passed
+When user searches for the "Faded Short Sleeve T-shirts"....................passed
+And user Add To Cart and Proceed to checkout................................passed
+Then summary section shows the added item...................................passed
+When user delete the item with sku as "SKU : demo_1"........................passed
+Then added item should be removed...........................................passed
+And verify that User successfully log out of the application................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check login and register related scenarios" name="login with ExamplesParameters" time="35.213121">
+<system-out><![CDATA[Given User "callnirajgupta@gmail.com" with password "password1" login into the application with correct credentials ExamplesParameters.passed
+Given User successfully log out of the application after clicking on log out button.passed
+]]></system-out>
 </testcase>
 </testsuite>

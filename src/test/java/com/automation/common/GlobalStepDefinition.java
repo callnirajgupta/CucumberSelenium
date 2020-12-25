@@ -40,7 +40,7 @@ public class GlobalStepDefinition {
 	
 
 	static int count=0;
-	 @Before(order = 0) 
+	@Before() 
 	public void Setup(Scenario scenario) {
 		 this.scenario=scenario;
 		seleniumUtil= SeleniumUtil.getInstance();
@@ -163,11 +163,11 @@ public class GlobalStepDefinition {
 	public void TearDown(Scenario scenario) throws WebDriverException, MalformedURLException {
 		System.out.println("Tear down"+scenario.getId());
 		if (SeleniumUtil.driverStatus==true){
-		if (scenario.isFailed()) {
+		//if (scenario.isFailed()) {
 			System.out.println("###################  i am inside screen shot after fail ####################");
 			final byte[] screenshot = ((TakesScreenshot) seleniumUtil.getDriver()).getScreenshotAs(OutputType.BYTES);
 			scenario.embed(screenshot, "image/png"); // stick it in the report
-		}
+		//}
 		
 		
 		}

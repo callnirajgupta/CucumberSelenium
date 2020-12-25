@@ -101,7 +101,8 @@ public class SeleniumUtil {
 				
 			}
 		}
-		private SeleniumUtil(){//if constructor is declared as private means this implements singleton concept..means object cannot be created from outside...means one instance of the class exist during runtime...
+		private SeleniumUtil(){
+			//if constructor is declared as private means this implements singleton concept..means object cannot be created from outside...means one instance of the class exist during runtime...
 			
 		}
 		
@@ -114,57 +115,64 @@ public class SeleniumUtil {
 		}
 
 		public WebDriver getDriver() throws MalformedURLException{//one instance of webconnector implies as one instance of driver....
-			if (driver==null){
-				driverStatus=true;
-			//	if("firefox".equalsIgnoreCase(System.getProperty("Browser")) && fireFox==null){
-					if("firefox".equalsIgnoreCase(System.getProperty("Browser"))){
+		if (driver == null) {
+			driverStatus = true;
+			if ("firefox".equalsIgnoreCase(System.getProperty("Browser"))) {
+				FirefoxOptions options = new FirefoxOptions();
+				if ("yes".equalsIgnoreCase(System.getProperty("Remote"))) {
+					new RemoteWebDriver(new java.net.URL("http://192.168.0.8:4444/wd/hub"),options);
+				}else{
 					LOGGER.info("Inside Firefox browser initialization");
-					System.setProperty("webdriver.gecko.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\geckodriver.exe");
-					FirefoxOptions options = new FirefoxOptions();
-					options.setHeadless(true);
-					driver= new FirefoxDriver(options);
-			    fireFox=driver;
-			    LOGGER.debug("FireFox Browser launched successfully");
-			}
-			//else if("IE".equalsIgnoreCase(System.getProperty("Browser")) && IE==null){
-					else if("IE".equalsIgnoreCase(System.getProperty("Browser"))){
+				
+				System.setProperty("webdriver.gecko.driver",
+						System.getProperty("user.dir") + "\\src\\test\\resources\\geckodriver.exe");
+				
+				//options.setHeadless(true);
+				driver = new FirefoxDriver(options);
+				fireFox = driver;
+				LOGGER.debug("FireFox Browser launched successfully");
+				}
+			} else if ("IE".equalsIgnoreCase(System.getProperty("Browser"))) {
 				LOGGER.info("Inside IE browser initialization");
-					System.out.println("i am inside IE");
-					 System.setProperty("webdriver.ie.driver", System.getProperty("user.dir")+"\\src\\test\\resources\\IEDriverServer_32.exe");
-					driver= new InternetExplorerDriver();
-					IE=driver;
-					LOGGER.debug("IE Browser launched successfully");
-				}
-			//else if("Chrome".equalsIgnoreCase(System.getProperty("Browser")) && chrome==null){
-				else if("Chrome".equalsIgnoreCase(System.getProperty("Browser"))){
-					if(System.getProperty("ExecuteOn").equalsIgnoreCase("saucelab")){
-						 String USERNAME = "roboticautomation";
-						   String ACCESS_KEY = "5a8cbd77-9240-46e2-bc4d-8db1a4190794";
-						   String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
-					
-								  DesiredCapabilities caps = DesiredCapabilities.chrome();
-						    caps.setCapability("platform", "Windows 10");
-						    caps.setCapability("version", "65");
-						 
-						    driver = new RemoteWebDriver(new java.net.URL(URL), caps);
-					
-					}else{
-						
-					
-				System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir")+"\\src\\test\\resources\\chromedriver.exe");
+				System.out.println("i am inside IE");
+				System.setProperty("webdriver.ie.driver",
+						System.getProperty("user.dir") + "\\src\\test\\resources\\IEDriverServer_32.exe");
+				driver = new InternetExplorerDriver();
+				IE = driver;
+				LOGGER.debug("IE Browser launched successfully");
+			} else if ("Chrome".equalsIgnoreCase(System.getProperty("Browser"))) {
 				ChromeOptions options = new ChromeOptions();
-				if(System.getProperty("headless").equalsIgnoreCase("headless")){
-		        options.addArguments("headless");
-		        options.addArguments("window-size=1200x600");
-				}
-				driver= new ChromeDriver(options);	
-						chrome=driver;
+				System.setProperty("webdriver.chrome.driver",System.getProperty("user.dir") + "\\src\\test\\resources\\chromedriver.exe");
+				if ("saucelab".equalsIgnoreCase(System.getProperty("ExecuteOn"))) {
+					String USERNAME = "roboticautomation";
+					String ACCESS_KEY = "5a8cbd77-9240-46e2-bc4d-8db1a4190794";
+					String URL = "http://" + USERNAME + ":" + ACCESS_KEY + "@ondemand.saucelabs.com:80/wd/hub";
+
+					DesiredCapabilities caps = DesiredCapabilities.chrome();
+					caps.setCapability("platform", "Windows 10");
+					caps.setCapability("version", "65");
+
+					driver = new RemoteWebDriver(new java.net.URL(URL), caps);
+
+				} else if ("yes".equalsIgnoreCase(System.getProperty("headless"))) {
+
+					
+		
+						options.addArguments("headless");
+						options.addArguments("window-size=1200x600");
+					} else if ("yes".equalsIgnoreCase(System.getProperty("Remote"))) {
+						driver = new RemoteWebDriver(new java.net.URL("http://192.168.0.8:4444/wd/hub"),options);
+					} else {
+						driver = new ChromeDriver(options);
+
 					}
 				}
-				
+
+			
 		}
 			return driver;
 		}
+					
 	//used for killing driver object/set driver=null, in the same tc us need to close the browser and open a new one...
 		
 		/**

@@ -1,0 +1,69 @@
+
+once install and runing-- docker version
+
+docker pull selenium/hub
+
+docker images
+
+docker pull selenium/node-chrome -- headless version
+
+docker pull selenium/node-chrome-debug -- non headless version
+
+docker pull selenium/node-firefox-debug  --headless version
+
+docker pull selenium/node-firefox -- non head less version
+
+Command to run chrome debug node from Docker: docker run -d –P –link selenium-hub:hub selenium/node-chrome-debug
+
+Command to run Firefox debug node from Docker: docker run -d –P –link selenium-hub:hub selenium/node-firefox-debug
+
+Sometimes both the commands may be ignored by the Docker quick start terminal. If your Docker quick start terminal ignores those two commands then alternatively you can use the below commands to start the debug mode of chrome and Firefox browsers.
+
+Alternative 01
+
+docker run –d –P –link selenium-hub:hub selenium/node-chrome-debug
+
+docker run –d –P –link selenium-hub:hub selenium/node-firefox-debug
+
+Alternative 02
+
+docker run –d –link selenium-hub:hub selenium/node-chrome-debug
+
+docker run –d –link selenium-hub:hub selenium/node-firefox-debug
+
+
+docker run -d -p 4444:4444 –name selenium-hub selenium/hub
+
+Command to run chrome node from Docker: docker run -d –link selenium-hub:hub selenium/node-chrome
+
+Command to run firefox node from Docker: docker run -d –link selenium-hub:hub selenium/node-firefox
+
+docker-compose.yml
+ docker-compose up -d
+docker ps -a -- list all container
+
+localhost:4444/grid/console
+
+to restart container- docker-compose restart
+
+to down container  docker-compose down
+docker ps -a
+ to start docker-compose up -d
+
+localhost:4444/wd/hub
+
+docker-compose up -d --scale chrome=10-- thats means 20 browser
+
+
+docker swan--
+
+scaling container
+
+
+
+Test Requirement--  Test are independent
+tests do not share driver
+
+docker run -d -p 4444:4444 --name selenium-hub selenium/hub
+
+

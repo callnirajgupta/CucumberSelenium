@@ -20721,3 +20721,196 @@
 2019-02-16 22:10:23 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:48583] can be kept alive indefinitely
 2019-02-16 22:10:23 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:48583][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
 2019-02-16 22:10:23 DEBUG SeleniumUtil:252 - ###################   Closed Browser #############################
+2020-11-28 09:28:06 INFO  CommonUtil:45 - ############  INSIDE LOGIN ########################
+2020-11-28 09:32:03 INFO  CommonUtil:45 - ############  INSIDE LOGIN ########################
+2020-11-28 09:34:23 INFO  CommonUtil:45 - ############  INSIDE LOGIN ########################
+2020-11-28 09:37:33 INFO  CommonUtil:45 - ############  INSIDE LOGIN ########################
+2020-11-28 09:37:34 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-11-28 09:37:34 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-11-28 09:37:34 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:13598][total kept alive: 0; route allocated: 0 of 2000; total allocated: 0 of 2000]
+2020-11-28 09:37:34 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:13598][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:34 DEBUG MainClientExec:235 - Opening connection {}->http://localhost:13598
+2020-11-28 09:37:34 DEBUG DefaultHttpClientConnectionOperator:139 - Connecting to localhost/127.0.0.1:13598
+2020-11-28 09:37:34 DEBUG DefaultHttpClientConnectionOperator:146 - Connection established 127.0.0.1:51590<->127.0.0.1:13598
+2020-11-28 09:37:34 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2020-11-28 09:37:34 DEBUG MainClientExec:256 - Executing request POST /session HTTP/1.1
+2020-11-28 09:37:34 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-11-28 09:37:34 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-11-28 09:37:34 DEBUG headers:133 - http-outgoing-0 >> POST /session HTTP/1.1
+2020-11-28 09:37:34 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-11-28 09:37:34 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 335
+2020-11-28 09:37:34 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:13598
+2020-11-28 09:37:35 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-11-28 09:37:35 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2020-11-28 09:37:35 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "POST /session HTTP/1.1[\r][\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 335[\r][\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:13598[\r][\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "{[\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "  "desiredCapabilities": {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}},[\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "  "capabilities": {[\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "    "desiredCapabilities": {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}},[\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "    "firstMatch": [[\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "      {"browserName":"chrome","goog:chromeOptions":{"args":[],"extensions":[]}}[\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "    ][\n]"
+2020-11-28 09:37:35 DEBUG wire:73 - http-outgoing-0 >> "  }[\n]"
+2020-11-28 09:37:35 DEBUG wire:87 - http-outgoing-0 >> "}"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 << "Content-Length:826[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"e864b5f3709408c13f1faf619fff8ed6","status":0,"value":{"acceptInsecureCerts":false,"acceptSslCerts":false,"applicationCacheEnabled":false,"browserConnectionEnabled":false,"browserName":"chrome","chrome":{"chromedriverVersion":"2.35.528161 (5b82f2d2aae0ca24b877009200ced9065a772e73)","userDataDir":"C:\\Users\\sai\\AppData\\Local\\Temp\\scoped_dir7328_2668"},"cssSelectorsEnabled":true,"databaseEnabled":false,"handlesAlerts":true,"hasTouchScreen":false,"javascriptEnabled":true,"locationContextEnabled":true,"mobileEmulationEnabled":false,"nativeEvents":true,"networkConnectionEnabled":false,"pageLoadStrategy":"normal","platform":"Windows NT","rotatable":false,"setWindowRect":true,"takesHeapSnapshot":true,"takesScreenshot":true,"unexpectedAlertBehaviour":"","version":"86.0.4240.198","webStorageEnabled":true}}"
+2020-11-28 09:37:38 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-11-28 09:37:38 DEBUG headers:125 - http-outgoing-0 << Content-Length:826
+2020-11-28 09:37:38 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-11-28 09:37:38 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-11-28 09:37:38 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:13598] can be kept alive indefinitely
+2020-11-28 09:37:38 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:13598][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:38 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-11-28 09:37:38 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-11-28 09:37:38 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:13598][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:38 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:13598][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:38 DEBUG MainClientExec:208 - Stale connection check
+2020-11-28 09:37:38 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-11-28 09:37:38 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2020-11-28 09:37:38 DEBUG MainClientExec:256 - Executing request POST /session/e864b5f3709408c13f1faf619fff8ed6/window/current/maximize HTTP/1.1
+2020-11-28 09:37:38 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-11-28 09:37:38 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-11-28 09:37:38 DEBUG headers:133 - http-outgoing-0 >> POST /session/e864b5f3709408c13f1faf619fff8ed6/window/current/maximize HTTP/1.1
+2020-11-28 09:37:38 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-11-28 09:37:38 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 45
+2020-11-28 09:37:38 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:13598
+2020-11-28 09:37:38 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-11-28 09:37:38 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2020-11-28 09:37:38 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 >> "POST /session/e864b5f3709408c13f1faf619fff8ed6/window/current/maximize HTTP/1.1[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 45[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:13598[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-11-28 09:37:38 DEBUG wire:87 - http-outgoing-0 >> "{"windowHandle":"current","handle":"current"}"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"e864b5f3709408c13f1faf619fff8ed6","status":0,"value":null}"
+2020-11-28 09:37:40 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-11-28 09:37:40 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2020-11-28 09:37:40 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-11-28 09:37:40 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:13598] can be kept alive indefinitely
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:13598][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:40 INFO  SeleniumUtil:299 -  print the sysc time 10
+2020-11-28 09:37:40 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-11-28 09:37:40 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:13598][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:13598][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:40 DEBUG MainClientExec:208 - Stale connection check
+2020-11-28 09:37:40 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-11-28 09:37:40 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2020-11-28 09:37:40 DEBUG MainClientExec:256 - Executing request POST /session/e864b5f3709408c13f1faf619fff8ed6/timeouts HTTP/1.1
+2020-11-28 09:37:40 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-11-28 09:37:40 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-11-28 09:37:40 DEBUG headers:133 - http-outgoing-0 >> POST /session/e864b5f3709408c13f1faf619fff8ed6/timeouts HTTP/1.1
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Content-Type: application/json; charset=utf-8
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Content-Length: 30
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:13598
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "POST /session/e864b5f3709408c13f1faf619fff8ed6/timeouts HTTP/1.1[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Content-Type: application/json; charset=utf-8[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Content-Length: 30[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:13598[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:87 - http-outgoing-0 >> "{"type":"implicit","ms":10000}"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"e864b5f3709408c13f1faf619fff8ed6","status":0,"value":null}"
+2020-11-28 09:37:40 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-11-28 09:37:40 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2020-11-28 09:37:40 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-11-28 09:37:40 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:13598] can be kept alive indefinitely
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:13598][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:40 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-11-28 09:37:40 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:13598][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:13598][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:40 DEBUG MainClientExec:208 - Stale connection check
+2020-11-28 09:37:40 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-11-28 09:37:40 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2020-11-28 09:37:40 DEBUG MainClientExec:256 - Executing request GET /session/e864b5f3709408c13f1faf619fff8ed6/screenshot HTTP/1.1
+2020-11-28 09:37:40 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-11-28 09:37:40 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-11-28 09:37:40 DEBUG headers:133 - http-outgoing-0 >> GET /session/e864b5f3709408c13f1faf619fff8ed6/screenshot HTTP/1.1
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Cache-Control: no-cache
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:13598
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "GET /session/e864b5f3709408c13f1faf619fff8ed6/screenshot HTTP/1.1[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Cache-Control: no-cache[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:13598[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "Content-Length:6338[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"e864b5f3709408c13f1faf619fff8ed6","status":0,"value":"iVBORw0KGgoAAAANSUhEUgAABVYAAAJlCAYAAAAxcKmfAAAAAXNSR0IArs4c6QAAEhZJREFUeJzt2MENwCAQwLDS/Xc+ViAvhGRPkHfWzMwHAAAAAMCx/3YAAAAAAMBrjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgMhYBQAAAACIjFUAAAAAgGgDSlsIxrrMYU8AAAAASUVORK5CYII="}"
+2020-11-28 09:37:40 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-11-28 09:37:40 DEBUG headers:125 - http-outgoing-0 << Content-Length:6338
+2020-11-28 09:37:40 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-11-28 09:37:40 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:13598] can be kept alive indefinitely
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:13598][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:40 INFO  SeleniumUtil:275 - ############################# Inside CloseBrowser #############################
+2020-11-28 09:37:40 DEBUG RequestAddCookies:123 - CookieSpec selected: default
+2020-11-28 09:37:40 DEBUG RequestAuthCache:77 - Auth cache not set in the context
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:255 - Connection request: [route: {}->http://localhost:13598][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:40 DEBUG PoolingHttpClientConnectionManager:288 - Connection leased: [id: 0][route: {}->http://localhost:13598][total kept alive: 0; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:40 DEBUG MainClientExec:208 - Stale connection check
+2020-11-28 09:37:40 DEBUG wire:87 - http-outgoing-0 << "[read] I/O error: Read timed out"
+2020-11-28 09:37:40 DEBUG DefaultManagedHttpClientConnection:88 - http-outgoing-0: set socket timeout to 10800000
+2020-11-28 09:37:40 DEBUG MainClientExec:256 - Executing request DELETE /session/e864b5f3709408c13f1faf619fff8ed6/window HTTP/1.1
+2020-11-28 09:37:40 DEBUG MainClientExec:261 - Target auth state: UNCHALLENGED
+2020-11-28 09:37:40 DEBUG MainClientExec:267 - Proxy auth state: UNCHALLENGED
+2020-11-28 09:37:40 DEBUG headers:133 - http-outgoing-0 >> DELETE /session/e864b5f3709408c13f1faf619fff8ed6/window HTTP/1.1
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Host: localhost:13598
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Connection: Keep-Alive
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)
+2020-11-28 09:37:40 DEBUG headers:136 - http-outgoing-0 >> Accept-Encoding: gzip,deflate
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "DELETE /session/e864b5f3709408c13f1faf619fff8ed6/window HTTP/1.1[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Host: localhost:13598[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Connection: Keep-Alive[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "User-Agent: Apache-HttpClient/4.5.3 (Java/1.8.0_161)[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "Accept-Encoding: gzip,deflate[\r][\n]"
+2020-11-28 09:37:40 DEBUG wire:73 - http-outgoing-0 >> "[\r][\n]"
+2020-11-28 09:37:41 DEBUG wire:73 - http-outgoing-0 << "HTTP/1.1 200 OK[\r][\n]"
+2020-11-28 09:37:41 DEBUG wire:73 - http-outgoing-0 << "Content-Length:72[\r][\n]"
+2020-11-28 09:37:41 DEBUG wire:73 - http-outgoing-0 << "Content-Type:application/json; charset=utf-8[\r][\n]"
+2020-11-28 09:37:41 DEBUG wire:73 - http-outgoing-0 << "[\r][\n]"
+2020-11-28 09:37:41 DEBUG wire:87 - http-outgoing-0 << "{"sessionId":"e864b5f3709408c13f1faf619fff8ed6","status":0,"value":null}"
+2020-11-28 09:37:41 DEBUG headers:122 - http-outgoing-0 << HTTP/1.1 200 OK
+2020-11-28 09:37:41 DEBUG headers:125 - http-outgoing-0 << Content-Length:72
+2020-11-28 09:37:41 DEBUG headers:125 - http-outgoing-0 << Content-Type:application/json; charset=utf-8
+2020-11-28 09:37:41 DEBUG MainClientExec:285 - Connection can be kept alive indefinitely
+2020-11-28 09:37:41 DEBUG PoolingHttpClientConnectionManager:320 - Connection [id: 0][route: {}->http://localhost:13598] can be kept alive indefinitely
+2020-11-28 09:37:41 DEBUG PoolingHttpClientConnectionManager:326 - Connection released: [id: 0][route: {}->http://localhost:13598][total kept alive: 1; route allocated: 1 of 2000; total allocated: 1 of 2000]
+2020-11-28 09:37:41 DEBUG SeleniumUtil:278 - ###################   Closed Browser #############################

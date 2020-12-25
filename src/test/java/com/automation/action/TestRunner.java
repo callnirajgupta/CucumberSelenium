@@ -23,64 +23,11 @@ import com.github.mkolisnyk.cucumber.runner.ExtendedParallelCucumber;
 import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
-//AddToCart
-
-
-/*@RunWith(ExtendedCucumber.class)
-@ExtendedCucumberOptions(
-		jsonReport = "target/cucumber.json",
-		//jsonUsageReport = "build/cucumber-usage.json",
-		outputFolder = "target/",
-		detailedReport = true,
-		detailedAggregatedReport = true,
-		overviewReport = true,
-		featureOverviewChart = true,
-		knownErrorsReport = true,
-		knownErrorsConfig = "configs/reports/known_errors.json",
-		usageReport = true,
-		coverageReport = false,
-		retryCount = 0,
-        breakdownReport = true,
-        breakdownConfig = "src/test/resources/breakdown_config.json",
-		screenShotLocation = "screenshots/",
-		screenShotSize = "300px",
-		toPDF = true,
-		pdfPageSize = "auto",
-		consolidatedReport = true,
-		consolidatedReportConfig = "configs/reports/consolidated_batch.json"
-		)*/
-
-// to run script in multiple thread and generate one PDF.
-/*@RunWith(ExtendedParallelCucumber.class)
-@ExtendedCucumberOptions(
-        threadsCount = 3,
-		jsonReport = "target/cucumber.json",
-		//jsonUsageReport = "build/cucumber-usage.json",
-		outputFolder = "target/",
-		detailedReport = true,
-		detailedAggregatedReport = true,
-		overviewReport = true,
-		toPDF = true
-		)*/
-// to generate Pdf report
-/*@RunWith(ExtendedCucumber.class)
-@ExtendedCucumberOptions(jsonReport = "target/cucumber.json",
-retryCount = 3,
-detailedReport = true,
-detailedAggregatedReport = true,
-overviewReport = true,
-//coverageReport = true,
-//jsonUsageReport = "target/cucumber-usage.json",
-//usageReport = true,
-toPDF = true,
-excludeCoverageTags = {"@flaky" },
-includeCoverageTags = {"@passed" },
-outputFolder = "target")*/
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = ".", tags = { "@LoginAndLogout_ExamplesParameters,@AddToCart" }, plugin = {
-		"pretty", "html:target/cucumber-html-report",
-		"json:target/cucumber.json", "junit:target/cucumber.xml" ,"rerun:target/rerun.txt" }, glue = { "com.automation" } )
+@CucumberOptions(features = ".", tags = { "@LoginAndLogout_ExamplesParameters ,@AddToCart" }, plugin = {
+		"pretty", "html:target3/cucumber-html-report",
+		"json:target3/cucumber.json", "junit:target3/cucumber.xml" ,"rerun:target/rerun.txt" }, glue = { "com.automation" } )
 
 
 public class TestRunner {
@@ -91,7 +38,7 @@ public class TestRunner {
 		
 		
 		if(System.getProperty("Browser")==null){
-			System.setProperty("Browser", "chrome");
+			System.setProperty("Browser", "firefox");
 			
 		}
 		if(System.getProperty("headless")==null){
@@ -106,6 +53,12 @@ public class TestRunner {
 			System.setProperty("ExecuteOn", "null");
 			
 		}
+		
+		if(System.getProperty("Remote")==null){
+			System.setProperty("Remote", "yes");
+			
+		}
+				
 				
 		//for one time driver object initialization
 		//SeleniumUtil.initializeSeleniumConnector();

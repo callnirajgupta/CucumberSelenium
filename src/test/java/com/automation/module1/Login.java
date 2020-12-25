@@ -74,12 +74,12 @@ public class Login {
 	@Given("^User \"(.*?)\" with password \"(.*?)\" login into the application with correct credentials ExamplesParameters$")
 	public void user_with_password_login_into_the_application_with_correct_credentials_ExamplesParameters(String arg1, String arg2) throws Throwable {
 		
-		BufferedImage bImage = ImageIO.read(new File("E:\\Video\\SeleniumCumber\\src\\test\\resources\\check.png"));
-	      ByteArrayOutputStream bos = new ByteArrayOutputStream();
-	      ImageIO.write(bImage, "jpg", bos );
-	      byte [] data = bos.toByteArray();
+		//BufferedImage bImage = ImageIO.read(new File("E:\\Video\\SeleniumCumber\\src\\test\\resources\\check.png"));
+	      //ByteArrayOutputStream bos = new ByteArrayOutputStream();
+	      //ImageIO.write(bImage, "jpg", bos );
+	     // byte [] data = bos.toByteArray();
 	      
-		GlobalStepDefinition.scenario.embed(data, "image/png");
+		//GlobalStepDefinition.scenario.embed(data, "image/png");
 		CommonUtil.login(arg1,arg2);
 		SeleniumUtil.ValidateWebElementPresence(By.cssSelector(WelcomePage_PO.WELCOMEPAGE_SIGNOUT_CSS));
 		LOGGER.debug("############  LOGIN SUCCESSFUL for user -   ########################--" +arg1);
